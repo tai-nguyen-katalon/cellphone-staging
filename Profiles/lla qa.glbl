@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GlobalVariableEntities>
+    <GlobalVariableEntity>
+        <description></description>
+        <initValue>'https://flsitjam.discoverflow.lla.digital/jamaica'</initValue>
+        <name>application_domain</name>
+    </GlobalVariableEntity>
+    <defaultProfile>True</defaultProfile>
+    <description></description>
+    <name>lla qa</name>
+    <tag></tag>
+</GlobalVariableEntities>

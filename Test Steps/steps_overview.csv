@@ -1,0 +1,3 @@
+Flow ID,Description,Test Steps,Flow Priority
+1,Verify successful navigation to Jamaica page,"step 1: Navigate to Page jamaica
+step 2: Add visual checkpoint at Page jamaica",High
