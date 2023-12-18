@@ -1,0 +1,17 @@
+{
+    "steps": [
+        "step 1: Navigate to Page home",
+        "step 2: At Page home click on hyperlink category phone --> navigate to Page category",
+        "step 3: At Page category input on input price min",
+        "step 4: At Page category input on input price max",
+        "step 5: At Page category click on input in stock",
+        "step 6: At Page category click on button object",
+        "step 7: At Page category click on hyperlink product ss galaxy z fold5 --> navigate to Page product ss-galaxy-z-fold5",
+        "step 8: At Page product ss-galaxy-z-fold5 click on label object",
+        "step 9: At Page product ss-galaxy-z-fold5 click on label object",
+        "step 10: At Page product ss-galaxy-z-fold5 click on button increased",
+        "step 11: At Page product ss-galaxy-z-fold5 click on button buy",
+        "step 12: At Page product ss-galaxy-z-fold5 click on hyperlink cart --> navigate to Page cart",
+        "step 13: Add visual checkpoint at Page cart"
+    ]
+}

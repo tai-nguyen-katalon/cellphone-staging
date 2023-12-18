@@ -1,0 +1,8 @@
+{
+    "steps": [
+        "step 1: Navigate to Page home",
+        "step 2: At Page home click on hyperlink category phone --> navigate to Page category",
+        "step 3: At Page category click on button add to cart",
+        "step 4: Add visual checkpoint at Page category"
+    ]
+}

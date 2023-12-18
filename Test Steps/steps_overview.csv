@@ -1,0 +1,57 @@
+Flow ID,Description,Test Steps,Flow Priority
+7,Verify Adding Item to Cart Proceeding to Checkout and Verifying Checkout Steps,"step 1: Navigate to Page home
+step 2: At Page home click on hyperlink category phone --> navigate to Page category
+step 3: At Page category click on hyperlink
+step 4: At Page category click on button add to cart
+step 5: At Page category click on hyperlink cart --> navigate to Page cart
+step 6: At Page cart click on button increased
+step 7: At Page cart click on button object --> navigate to Page checkout info
+step 8: At Page checkout info input on input email
+step 9: At Page checkout info click on input receive marketing info
+step 10: At Page checkout info click on button object --> navigate to Page checkout shipping-address
+step 11: Add visual checkpoint at Page checkout shipping-address",High
+6,Verify Adding Modifying and Buying Item on Product Page Samsung Galaxy Z Fold5 and Navigating to Cart,"step 1: Navigate to Page home
+step 2: At Page home click on hyperlink category phone --> navigate to Page category
+step 3: At Page category input on input price min
+step 4: At Page category input on input price max
+step 5: At Page category click on input in stock
+step 6: At Page category click on button object
+step 7: At Page category click on hyperlink product ss galaxy z fold5 --> navigate to Page product ss-galaxy-z-fold5
+step 8: At Page product ss-galaxy-z-fold5 click on label object
+step 9: At Page product ss-galaxy-z-fold5 click on label object
+step 10: At Page product ss-galaxy-z-fold5 click on button increased
+step 11: At Page product ss-galaxy-z-fold5 click on button buy
+step 12: At Page product ss-galaxy-z-fold5 click on hyperlink cart --> navigate to Page cart
+step 13: Add visual checkpoint at Page cart",Low
+3,Verify Filtering and Adding Item to Cart on Category Page,"step 1: Navigate to Page home
+step 2: At Page home click on hyperlink category phone --> navigate to Page category
+step 3: At Page category input on input price min
+step 4: At Page category input on input price max
+step 5: At Page category click on input in stock
+step 6: At Page category click on button object
+step 7: At Page category click on button add to cart
+step 8: Add visual checkpoint at Page category",Low
+5,Verify Adding and Buying Item on Product Page Google Pixel7 Pro,"step 1: Navigate to Page home
+step 2: At Page home click on hyperlink category phone --> navigate to Page category
+step 3: At Page category input on input price min
+step 4: At Page category input on input price max
+step 5: At Page category click on input in stock
+step 6: At Page category click on button object
+step 7: At Page category click on hyperlink product google pixel pro --> navigate to Page product google-pixel-7-pro
+step 8: At Page product google-pixel-7-pro click on button increased
+step 9: At Page product google-pixel-7-pro click on button buy
+step 10: Add visual checkpoint at Page product google-pixel-7-pro",Low
+4,Verify Adding Item to Cart on Category Page,"step 1: Navigate to Page home
+step 2: At Page home click on hyperlink category phone --> navigate to Page category
+step 3: At Page category click on button add to cart
+step 4: Add visual checkpoint at Page category",Low
+2,Verify Hovering over Object on Home Page,"step 1: Navigate to Page home
+step 2: At Page home hover on li object
+step 3: Add visual checkpoint at Page home",Trivial
+9,Verify Viewing Shipping Address on Checkout Page,"step 1: Navigate to Page home --> navigate to Page checkout shipping-address
+step 2: Add visual checkpoint at Page checkout shipping-address",Trivial
+1,Verify Adding Item to Cart on Home Page,"step 1: Navigate to Page home
+step 2: At Page home click on button add to cart
+step 3: Add visual checkpoint at Page home",Trivial
+8,Verify Viewing Cart from Home Page,"step 1: Navigate to Page home --> navigate to Page cart
+step 2: Add visual checkpoint at Page cart",Trivial

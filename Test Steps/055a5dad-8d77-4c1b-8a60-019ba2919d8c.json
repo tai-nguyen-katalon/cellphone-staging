@@ -1,0 +1,14 @@
+{
+    "steps": [
+        "step 1: Navigate to Page home",
+        "step 2: At Page home click on hyperlink category phone --> navigate to Page category",
+        "step 3: At Page category input on input price min",
+        "step 4: At Page category input on input price max",
+        "step 5: At Page category click on input in stock",
+        "step 6: At Page category click on button object",
+        "step 7: At Page category click on hyperlink product google pixel pro --> navigate to Page product google-pixel-7-pro",
+        "step 8: At Page product google-pixel-7-pro click on button increased",
+        "step 9: At Page product google-pixel-7-pro click on button buy",
+        "step 10: Add visual checkpoint at Page product google-pixel-7-pro"
+    ]
+}
