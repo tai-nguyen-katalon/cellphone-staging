@@ -1,0 +1,11 @@
+{
+    "steps": [
+        "step 1: Navigate to Page home",
+        "step 2: At Page home click on main object",
+        "step 3: At Page home click on main object",
+        "step 4: At Page home click on hyperlink product apple iphone new --> navigate to Page cart",
+        "step 5: At Page cart click on hyperlink go to cart",
+        "step 6: At Page cart click on hyperlink go to cart",
+        "step 7: Add visual checkpoint at Page cart"
+    ]
+}
