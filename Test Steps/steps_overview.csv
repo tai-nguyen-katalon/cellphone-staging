@@ -1,10 +1,14 @@
 Flow ID,Description,Test Steps,Flow Priority
-1,Verify successful navigation to Cart page after adding Apple i Phone to Cart,"step 1: Navigate to Page home
+1,Verify Cart Page after Adding Apple i Phone to Cart,"step 1: Navigate to Page home
 step 2: At Page home click on main object
 step 3: At Page home click on main object
 step 4: At Page home click on hyperlink product apple iphone new --> navigate to Page cart
 step 5: At Page cart click on hyperlink go to cart
 step 6: At Page cart click on hyperlink go to cart
 step 7: Add visual checkpoint at Page cart",High
-2,Verify successful navigation to Apple i Phone15 Plus product page,"step 1: Navigate to Page home --> navigate to Page product apple-iphone-15-plus
+4,Verify Shipping Address Page in Checkout,"step 1: Navigate to Page home --> navigate to Page checkout shipping-address
+step 2: Add visual checkpoint at Page checkout shipping-address",Low
+3,Verify Checkout Information Page,"step 1: Navigate to Page home --> navigate to Page checkout info
+step 2: Add visual checkpoint at Page checkout info",Low
+2,Verify Apple i Phone15 Plus Product Page,"step 1: Navigate to Page home --> navigate to Page product apple-iphone-15-plus
 step 2: Add visual checkpoint at Page product apple-iphone-15-plus",Low
