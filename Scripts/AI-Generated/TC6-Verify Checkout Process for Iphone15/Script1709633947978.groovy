@@ -1,6 +1,6 @@
-import internal.GlobalVariable as GlobalVariable
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.model.FailureHandling
 
 'Initialize test session: Open browser and set view port'
@@ -29,11 +29,11 @@ WebUI.mouseOver(findTestObject('AI-Generated/Page_home/li_object'))
 
 WebUI.takeScreenshot()
 
-WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_home/hyperlink_apple_1'), 20, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_home/hyperlink_apple'), 20, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/hyperlink_apple_1'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/hyperlink_apple'))
 
 "Step 4: Click on link 'iPhone 15' -> Navigate to page 'product/*'"
 
@@ -69,21 +69,21 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/label_object_1'))
 
 WebUI.takeScreenshot()
 
-WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_product/svg_object_1'), 20, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_product/svg_object'), 20, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/svg_object_1'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/svg_object'))
 
 "Step 8: Click on button ' Buy'"
 
 WebUI.takeScreenshot()
 
-WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_product/button_buy_1'), 20, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_product/button_buy'), 20, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/button_buy_1'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/button_buy'))
 
 "Step 9: Click on link ' Place an order' -> Navigate to page 'cart'"
 
@@ -397,7 +397,7 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping-address/
 
 "Step 40: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC6-Verify Checkout Process and Payment Page Functionality_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC6-Verify Checkout Process for Iphone15_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
