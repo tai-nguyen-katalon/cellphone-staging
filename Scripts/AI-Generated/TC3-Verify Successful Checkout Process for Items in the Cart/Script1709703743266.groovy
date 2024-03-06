@@ -1,7 +1,7 @@
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.model.FailureHandling
 import internal.GlobalVariable as GlobalVariable
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import com.kms.katalon.core.model.FailureHandling
 
 'Initialize test session: Open browser and set view port'
 
@@ -29,11 +29,11 @@ WebUI.mouseOver(findTestObject('AI-Generated/Page_home/li_object'))
 
 WebUI.takeScreenshot()
 
-WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_home/hyperlink_apple_1'), 20, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_home/hyperlink_apple'), 20, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/hyperlink_apple_1'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/hyperlink_apple'))
 
 "Step 4: Enter input value in input field 'price min'"
 
@@ -407,7 +407,7 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_shipping-address/
 
 "Step 41: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Verify Checkout Process and Shipping Information for Apple Chekhly Na i Phone_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Verify Successful Checkout Process for Items in the Cart_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
