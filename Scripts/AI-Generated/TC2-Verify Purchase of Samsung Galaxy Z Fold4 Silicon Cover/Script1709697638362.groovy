@@ -1,5 +1,5 @@
-import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.model.FailureHandling
 
@@ -15,7 +15,17 @@ def setup() {
 
 WebUI.navigateToUrl(GlobalVariable.application_domain + '/')
 
-"Step 2: Click on link 'Accessories' -> Navigate to page 'category/accessories'"
+"Step 2: Hover over list item"
+
+WebUI.takeScreenshot()
+
+WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_home/li_object'), 20, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.mouseOver(findTestObject('AI-Generated/Page_home/li_object'))
+
+"Step 3: Click on link 'Accessories' -> Navigate to page 'category/accessories'"
 
 WebUI.takeScreenshot()
 
@@ -25,7 +35,7 @@ WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '?/?(?:#.*
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/hyperlink_accessories'))
 
-"Step 3: Enter input value in input field 'price min'"
+"Step 4: Enter input value in input field 'price min'"
 
 WebUI.takeScreenshot()
 
@@ -35,7 +45,7 @@ WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/category
 
 WebUI.setText(findTestObject('AI-Generated/Page_category_accessories/input_price_min'), input_price_min)
 
-"Step 4: Enter input value in input field 'price max'"
+"Step 5: Enter input value in input field 'price max'"
 
 WebUI.takeScreenshot()
 
@@ -45,7 +55,7 @@ WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/category
 
 WebUI.setText(findTestObject('AI-Generated/Page_category_accessories/input_price_max'), input_price_max)
 
-"Step 5: Click on button 'Show (8)'"
+"Step 6: Click on button 'Show (8)'"
 
 WebUI.takeScreenshot()
 
@@ -55,7 +65,7 @@ WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/category
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_category_accessories/button_show_8'))
 
-"Step 6: Click on link 'Samsung Galaxy Z Fold4 Silicon Cover' -> Navigate to page 'product/*'"
+"Step 7: Click on link 'Samsung Galaxy Z Fold4 Silicon Cover' -> Navigate to page 'product/*'"
 
 WebUI.takeScreenshot()
 
@@ -65,29 +75,29 @@ WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/category
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_category_accessories/hyperlink_samsung_galaxy_z_fold4_silicon_cover'))
 
-"Step 7: Click on svg"
+"Step 8: Click on svg"
 
 WebUI.takeScreenshot()
 
-WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_product/svg_object_1'), 20, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_product/svg_object'), 20, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/svg_object_1'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/svg_object'))
 
-"Step 8: Click on button ' Buy'"
+"Step 9: Click on button ' Buy'"
 
 WebUI.takeScreenshot()
 
-WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_product/button_buy_1'), 20, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_product/button_buy'), 20, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/button_buy_1'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/button_buy'))
 
-"Step 9: Take full page screenshot as checkpoint"
+"Step 10: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Verify Product Page for Samsung Galaxy Z Fold4 Silicon Cover_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify Purchase of Samsung Galaxy Z Fold4 Silicon Cover_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

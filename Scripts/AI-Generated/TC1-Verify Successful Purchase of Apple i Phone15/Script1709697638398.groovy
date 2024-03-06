@@ -1,5 +1,5 @@
-import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.model.FailureHandling
 
@@ -15,7 +15,17 @@ def setup() {
 
 WebUI.navigateToUrl(GlobalVariable.application_domain + '/')
 
-"Step 2: Click on link 'Apple' -> Navigate to page 'category/apple'"
+"Step 2: Hover over list item"
+
+WebUI.takeScreenshot()
+
+WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_home/li_object'), 20, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '?/?(?:#.*)?(?:\\?.*)?$', true)
+
+WebUI.mouseOver(findTestObject('AI-Generated/Page_home/li_object'))
+
+"Step 3: Click on link 'Apple' -> Navigate to page 'category/apple'"
 
 WebUI.takeScreenshot()
 
@@ -25,7 +35,7 @@ WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '?/?(?:#.*
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/hyperlink_apple'))
 
-"Step 3: Click on link 'iPhone 15' -> Navigate to page 'product/*'"
+"Step 4: Click on link 'iPhone 15' -> Navigate to page 'product/*'"
 
 WebUI.takeScreenshot()
 
@@ -35,7 +45,7 @@ WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/category
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_category_apple/hyperlink_iphone_15'))
 
-"Step 4: Click on label"
+"Step 5: Click on label"
 
 WebUI.takeScreenshot()
 
@@ -45,7 +55,7 @@ WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/product/
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/label_object'))
 
-"Step 5: Click on label"
+"Step 6: Click on label"
 
 WebUI.takeScreenshot()
 
@@ -55,27 +65,27 @@ WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/product/
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/label_object_1'))
 
-"Step 6: Click on svg"
+"Step 7: Click on svg"
 
 WebUI.takeScreenshot()
 
-WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_product/svg_object'), 20, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_product/svg_object_1'), 20, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/svg_object'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/svg_object_1'))
 
-"Step 7: Click on button ' Buy'"
+"Step 8: Click on button ' Buy'"
 
 WebUI.takeScreenshot()
 
-WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_product/button_buy'), 20, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_product/button_buy_1'), 20, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/product/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/button_buy'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/button_buy_1'))
 
-"Step 8: Click on link ' Place an order' -> Navigate to page 'cart'"
+"Step 9: Click on link ' Place an order' -> Navigate to page 'cart'"
 
 WebUI.takeScreenshot()
 
@@ -85,7 +95,7 @@ WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/product/
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/hyperlink_place_an_order'))
 
-"Step 9: Click on button '+'"
+"Step 10: Click on button '+'"
 
 WebUI.takeScreenshot()
 
@@ -95,7 +105,7 @@ WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/cart?/?(
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_cart/button'))
 
-"Step 10: Click on button 'Remove'"
+"Step 11: Click on button 'Remove'"
 
 WebUI.takeScreenshot()
 
@@ -105,9 +115,9 @@ WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/cart?/?(
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_cart/button_remove'))
 
-"Step 11: Take full page screenshot as checkpoint"
+"Step 12: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify Shopping Cart and Order Placement for Apple Products_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Successful Purchase of Apple i Phone15_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

@@ -1,5 +1,5 @@
-import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.model.FailureHandling
 
@@ -87,7 +87,7 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_category_samsung/button_bu
 
 "Step 9: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Samsung Category Page_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC4-Verify Purchase of Samsung Products_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

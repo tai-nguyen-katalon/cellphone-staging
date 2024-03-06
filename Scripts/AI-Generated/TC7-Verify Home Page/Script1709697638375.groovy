@@ -1,5 +1,5 @@
-import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.model.FailureHandling
 
@@ -27,7 +27,7 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/svg_object'))
 
 "Step 3: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC8-Verify Home Page_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC7-Verify Home Page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
