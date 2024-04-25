@@ -1,9 +1,9 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-1,Verify Successful Checkout Process with Shipping and Payment Details,Navigate to the home page and proceed through the checkout process by adding shipping and payment details. Complete the checkout process and verify the Thank You page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+1,Verify Successful Checkout Process from Home Page,Navigate to the home page and proceed through the checkout process. Verify that the checkout is completed successfully and reach the thank you page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Hover over list item
 Step 3: Click on button
 Step 4: Click on link 'Place an order'
-Step 5: Proceed through checkout process with shipping and payment details
+Step 5: Proceed through checkout process
 	- Step 1: Click on button '+'
 	- Step 2: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
 	- Step 3: Hover over div
@@ -38,18 +38,18 @@ Step 5: Proceed through checkout process with shipping and payment details
 	- Step 32: Click on button 'COMPLETE ORDER'
 Step 6: Take full page screenshot as checkpoint
 ",High
-2,Verify Information on Apple Product Page,Navigate to the home page and access the Apple category. View the details of the iPhone 15 product page and verify the displayed information.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+2,Verify Apple iPhone 15 Product Details,Navigate to the home page and access the Apple category. View the details of the iPhone 15 product and verify the displayed information.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Hover over list item
 Step 3: Click on link 'Apple' -> Navigate to page 'category/apple'
 Step 4: Click on link 'iPhone 15' -> Navigate to page 'product/*'
 Step 5: Take full page screenshot as checkpoint
 ",Low
-3,Verify Successful Checkout Process with Accessories,Navigate to the home page and select accessories category. Proceed through the checkout process by adding shipping and payment details. Verify the Thank You page after completing the checkout.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+3,Verify Checkout Process for Accessories by Price,Navigate to the home page and select the accessories category. Choose items based on price and proceed through the checkout process. Verify the completion of the checkout.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Click on link 'Accessories' -> Navigate to page 'category/accessories'
 Step 3: Click on link 'By price'
 Step 4: Click on button
 Step 5: Click on link 'Place an order'
-Step 6: Proceed through checkout process with shipping and payment details
+Step 6: Proceed through checkout process
 	- Step 1: Click on button '+'
 	- Step 2: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
 	- Step 3: Hover over div
@@ -84,7 +84,7 @@ Step 6: Proceed through checkout process with shipping and payment details
 	- Step 32: Click on button 'COMPLETE ORDER'
 Step 7: Take full page screenshot as checkpoint
 ",Trivial
-4,Verify Successful Checkout Process with Samsung Products,Navigate to the home page and access the Samsung category. Select products and proceed through the checkout process by adding shipping and payment details. Verify the Thank You page after completing the checkout.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+4,Verify Successful Checkout for Samsung Products,Navigate to the home page and select Samsung products. Proceed through the checkout process by selecting and buying items. Verify the successful completion of the checkout.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Hover over list item
 Step 3: Click on link 'Samsung' -> Navigate to page 'category/samsung'
 Step 4: Click on link 'By title'
@@ -93,7 +93,7 @@ Step 6: Click on label
 Step 7: Click on label
 Step 8: Click on button 'Buy'
 Step 9: Click on link 'Place an order'
-Step 10: Proceed through checkout process with shipping and payment details
+Step 10: Proceed through checkout process
 	- Step 1: Click on button '+'
 	- Step 2: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
 	- Step 3: Hover over div
@@ -128,8 +128,8 @@ Step 10: Proceed through checkout process with shipping and payment details
 	- Step 32: Click on button 'COMPLETE ORDER'
 Step 11: Take full page screenshot as checkpoint
 ",Trivial
-5,Verify Successful Checkout Process with Apple Products,Navigate to the home page and search for Apple products within a specific price range. Select products and proceed through the checkout process by adding shipping and payment details. Verify the Thank You page after completing the checkout.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
-Step 2: Navigate to Apple category and search for products within price range
+5,Verify Checkout Process for iPhone Cases in Specific Price Range,"Navigate to the home page and search for iPhone cases within a specific price range. Select and buy items, then proceed through the checkout process. Verify the completion of the checkout.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Search for iPhone cases in a specific price range
 	- Step 1: Hover over list item
 	- Step 2: Click on link 'Apple' -> Navigate to page 'category/chekhly-na-iphone'
 	- Step 3: Enter input value in input field 'price min'
@@ -139,7 +139,7 @@ Step 3: Click on button
 Step 4: Click on label
 Step 5: Click on button 'Buy'
 Step 6: Click on link 'Place an order'
-Step 7: Proceed through checkout process with shipping and payment details
+Step 7: Proceed through checkout process
 	- Step 1: Click on button '+'
 	- Step 2: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
 	- Step 3: Hover over div
@@ -174,13 +174,13 @@ Step 7: Proceed through checkout process with shipping and payment details
 	- Step 32: Click on button 'COMPLETE ORDER'
 Step 8: Take full page screenshot as checkpoint
 ",Trivial
-6,Verify Successful Checkout Process with Selected Items,Navigate to the home page and select specific items. Proceed through the checkout process by adding shipping and payment details. Verify the Thank You page after completing the checkout.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+6,Verify Successful Checkout Process for Selected Items,Navigate to the home page and select specific items for purchase. Proceed through the checkout process by buying the selected items. Verify the completion of the checkout.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Click on button
 Step 3: Click on label
 Step 4: Click on label
 Step 5: Click on button 'Buy'
 Step 6: Click on link 'Place an order'
-Step 7: Proceed through checkout process with shipping and payment details
+Step 7: Proceed through checkout process
 	- Step 1: Click on button '+'
 	- Step 2: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
 	- Step 3: Hover over div
@@ -215,7 +215,7 @@ Step 7: Proceed through checkout process with shipping and payment details
 	- Step 32: Click on button 'COMPLETE ORDER'
 Step 8: Take full page screenshot as checkpoint
 ",Trivial
-7,Verify Successful Checkout Process with Samsung Galaxy Z Fold4 Silicon Cover,Navigate to the home page and select accessories category. Input price range and search for specific product. Proceed through the checkout process by adding shipping and payment details. Verify the Thank You page after completing the checkout.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+7,Verify Successful Checkout for Samsung Galaxy Z Fold4 Silicon Cover,Navigate to the home page and select the Samsung Galaxy Z Fold4 Silicon Cover. Proceed through the checkout process by buying the item. Verify the completion of the checkout.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Hover over list item
 Step 3: Click on link 'Accessories' -> Navigate to page 'category/accessories'
 Step 4: Enter input value in input field 'price min'
@@ -225,7 +225,7 @@ Step 7: Click on link 'Samsung Galaxy Z Fold4 Silicon Cover' -> Navigate to page
 Step 8: Click on button
 Step 9: Click on button 'Buy'
 Step 10: Click on link 'Place an order'
-Step 11: Proceed through checkout process with shipping and payment details
+Step 11: Proceed through checkout process
 	- Step 1: Click on button '+'
 	- Step 2: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
 	- Step 3: Hover over div
@@ -260,20 +260,20 @@ Step 11: Proceed through checkout process with shipping and payment details
 	- Step 32: Click on button 'COMPLETE ORDER'
 Step 12: Take full page screenshot as checkpoint
 ",Trivial
-8,Verify Successful Checkout Process with Phone Category,Navigate to the home page and access the phone category. Input price range and search for specific product. Select items and proceed through the checkout process by adding shipping and payment details. Verify the Thank You page after completing the checkout.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+8,Verify Checkout Process for Phone Category with Price Range,Navigate to the home page and select the phone category. Set a price range and search for items. Buy selected items and proceed through the checkout process. Verify the completion of the checkout.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Hover over list item
 Step 3: Click on link 'Phone' -> Navigate to page 'category/phone'
 Step 4: Enter input value in input field 'price min'
 Step 5: Enter input value in input field 'price max'
 Step 6: Click on button 'Search'
 Step 7: Click on link 'iPhone 15'
-Step 8: Select items and place an order
+Step 8: Buy selected items and place an order
 	- Step 1: Click on label
 	- Step 2: Click on label
 	- Step 3: Click on button
 	- Step 4: Click on button 'Buy'
 	- Step 5: Click on link 'Place an order'
-Step 9: Proceed through checkout process with shipping and payment details
+Step 9: Proceed through checkout process
 	- Step 1: Click on button '+'
 	- Step 2: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
 	- Step 3: Hover over div
@@ -308,7 +308,7 @@ Step 9: Proceed through checkout process with shipping and payment details
 	- Step 32: Click on button 'COMPLETE ORDER'
 Step 10: Take full page screenshot as checkpoint
 ",Trivial
-9,Verify Successful Checkout Process with Accessories by Price,Navigate to the home page and select accessories category. Click on 'By Price' and proceed through the checkout process by adding shipping and payment details. Verify the Thank You page after completing the checkout.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+9,Verify Successful Checkout Process for Accessories by Price,Navigate to the home page and select the accessories category. Choose items based on price and proceed through the checkout process. Verify the completion of the checkout.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Hover over list item
 Step 3: Click on link 'Accessories' -> Navigate to page 'category/accessories'
 Step 4: Click on link 'By price'
@@ -317,7 +317,7 @@ Step 6: Click on button
 Step 7: Click on label
 Step 8: Click on button 'Buy'
 Step 9: Click on link 'Place an order'
-Step 10: Proceed through checkout process with shipping and payment details
+Step 10: Proceed through checkout process
 	- Step 1: Click on button '+'
 	- Step 2: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
 	- Step 3: Hover over div
@@ -352,7 +352,7 @@ Step 10: Proceed through checkout process with shipping and payment details
 	- Step 32: Click on button 'COMPLETE ORDER'
 Step 11: Take full page screenshot as checkpoint
 ",Trivial
-10,Verify Successful Checkout Process with Phone Category by Title,Navigate to the home page and access the phone category. Click on 'By Title' and proceed through the checkout process by adding shipping and payment details. Verify the Thank You page after completing the checkout.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+10,Verify Successful Checkout for Phone Category by Title,Navigate to the home page and select the phone category. Choose items based on title and proceed through the checkout process. Verify the completion of the checkout.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Hover over list item
 Step 3: Click on link 'Phone' -> Navigate to page 'category/phone'
 Step 4: Click on link 'By title'
@@ -362,7 +362,7 @@ Step 7: Click on label
 Step 8: Click on label
 Step 9: Click on button 'Buy'
 Step 10: Click on link 'Place an order'
-Step 11: Proceed through checkout process with shipping and payment details
+Step 11: Proceed through checkout process
 	- Step 1: Click on button '+'
 	- Step 2: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
 	- Step 3: Hover over div
@@ -397,11 +397,11 @@ Step 11: Proceed through checkout process with shipping and payment details
 	- Step 32: Click on button 'COMPLETE ORDER'
 Step 12: Take full page screenshot as checkpoint
 ",Trivial
-11,Verify Information on Apple Product Page and Cart,Navigate to the home page and access the Apple category. View the details of the iPhone 15 product page and proceed to the cart. Verify the information displayed on the cart page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+11,Verify Cart Details for Apple iPhone 15,Navigate to the home page and access the Apple category. View the details of the iPhone 15 product in the cart and verify the displayed information.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Hover over list item
 Step 3: Click on link 'Apple' -> Navigate to page 'category/apple'
 Step 4: Click on link 'iPhone 15'
-Step 5: Select items and place an order
+Step 5: Buy selected items and place an order
 	- Step 1: Click on label
 	- Step 2: Click on label
 	- Step 3: Click on button
@@ -409,8 +409,8 @@ Step 5: Select items and place an order
 	- Step 5: Click on link 'Place an order'
 Step 6: Take full page screenshot as checkpoint
 ",Trivial
-12,Verify Information on Apple Product Page with Specific Search,Navigate to the home page and search for specific Apple products within a price range. View the details of the iPhone 15 silicone case with MagSafe product page. Select the product and proceed to the cart. Verify the information displayed on the cart page.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
-Step 2: Navigate to Apple category and search for products within price range
+12,Verify Cart Details for iPhone 15 Silicone Case with MagSafe,Navigate to the home page and search for iPhone cases within a specific price range. Select the iPhone 15 Silicone Case with MagSafe and proceed to the cart. Verify the displayed information in the cart.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Search for iPhone cases in a specific price range
 	- Step 1: Hover over list item
 	- Step 2: Click on link 'Apple' -> Navigate to page 'category/chekhly-na-iphone'
 	- Step 3: Enter input value in input field 'price min'
@@ -424,11 +424,11 @@ Step 7: Click on button 'Buy'
 Step 8: Click on link 'Place an order' -> Navigate to page 'cart'
 Step 9: Take full page screenshot as checkpoint
 ",Trivial
-13,Verify Successful Checkout Process with Apple Products and Cart,Navigate to the home page and access the Apple category. View the details of the iPhone 15 product page and proceed to the cart. Select items and proceed through the checkout process by adding shipping and payment details. Verify the Thank You page after completing the checkout.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+13,Verify Successful Checkout for Apple iPhone 15 from Cart,Navigate to the home page and access the Apple category. Select the iPhone 15 product from the cart and proceed through the checkout process. Verify the completion of the checkout.,"Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Hover over list item
 Step 3: Click on link 'Apple' -> Navigate to page 'category/apple'
 Step 4: Click on link 'iPhone 15'
-Step 5: Select items and place an order
+Step 5: Buy selected items and place an order
 	- Step 1: Click on label
 	- Step 2: Click on label
 	- Step 3: Click on button
@@ -439,13 +439,13 @@ Step 7: Click on button 'Remove'
 Step 8: Click on link 'Go shopping!'
 Step 9: Click on link 'Apple' -> Navigate to page 'category/apple'
 Step 10: Click on link 'iPhone 15'
-Step 11: Select items and place an order
+Step 11: Buy selected items and place an order
 	- Step 1: Click on label
 	- Step 2: Click on label
 	- Step 3: Click on button
 	- Step 4: Click on button 'Buy'
 	- Step 5: Click on link 'Place an order'
-Step 12: Proceed through checkout process with shipping and payment details
+Step 12: Proceed through checkout process
 	- Step 1: Click on button '+'
 	- Step 2: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
 	- Step 3: Hover over div

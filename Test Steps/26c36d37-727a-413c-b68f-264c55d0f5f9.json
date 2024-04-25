@@ -1,0 +1,12 @@
+{
+    "steps": [
+        "step 1: Navigate to https://cellphone-staging.aut.katalon.com/",
+        "step 2: Search for iPhone cases in a specific price range",
+        "step 3: Click on button",
+        "step 4: Click on label",
+        "step 5: Click on button 'Buy'",
+        "step 6: Click on link 'Place an order'",
+        "step 7: Proceed through checkout process",
+        "step 8: Take full page screenshot as checkpoint"
+    ]
+}
