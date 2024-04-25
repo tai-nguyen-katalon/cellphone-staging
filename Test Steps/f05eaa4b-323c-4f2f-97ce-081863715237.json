@@ -1,0 +1,16 @@
+{
+    "steps": [
+        "step 1: Navigate to https://cellphone-staging.aut.katalon.com/",
+        "step 2: Hover over list item",
+        "step 3: Click on link 'Accessories' -> Navigate to page 'category/accessories'",
+        "step 4: Enter input value in input field 'price min'",
+        "step 5: Enter input value in input field 'price max'",
+        "step 6: Click on button 'Search'",
+        "step 7: Click on link 'Samsung Galaxy Z Fold4 Silicon Cover' -> Navigate to page 'product/*'",
+        "step 8: Click on button",
+        "step 9: Click on button 'Buy'",
+        "step 10: Click on link 'Place an order'",
+        "step 11: Proceed through checkout process with shipping and payment details",
+        "step 12: Take full page screenshot as checkpoint"
+    ]
+}
