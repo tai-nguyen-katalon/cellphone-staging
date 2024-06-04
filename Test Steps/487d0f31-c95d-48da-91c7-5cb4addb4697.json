@@ -1,0 +1,12 @@
+{
+    "steps": [
+        "step 1: Navigate to https://cellphone-staging.aut.katalon.com/",
+        "step 2: Click on button",
+        "step 3: Click on label",
+        "step 4: Click on label",
+        "step 5: Click on button 'Buy'",
+        "step 6: Click on link 'Place an order' -> Navigate to page 'cart'",
+        "step 7: Click on button 'Increased'",
+        "step 8: Proceed through checkout steps, provide shipping info, select payment method, and complete order"
+    ]
+}
