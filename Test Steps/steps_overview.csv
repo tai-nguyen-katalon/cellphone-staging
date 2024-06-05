@@ -1,11 +1,11 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-1,Verify Order Placement for iPhone 15 from Category Page,"Navigate to the homepage, select iPhone 15 from the category, set price range, view products, and place an order. Proceed through checkout steps, provide shipping info, select payment method, and complete the order.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+1,Buy iPhone 15 from Phone Category and Verify Checkout Process,"Navigate to the phone category, select and buy an iPhone 15. Proceed through checkout by providing shipping and payment details. Verify successful completion.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Hover over list item
 Step 3: Click on link 'Phone' -> Navigate to page 'category/*'
 Step 4: Enter input value in input field 'price min'
 Step 5: Enter input value in input field 'price max'
 Step 6: Click on button 'Show (4)'
-Step 7: Navigate to iPhone 15 product page, select options, and place an order
+Step 7: Select and buy an iPhone 15 from the product page
 	- Step 1: Click on link 'iPhone 15' -> Navigate to page 'product/*'
 	- Step 2: Click on label
 	- Step 3: Click on label
@@ -13,7 +13,7 @@ Step 7: Navigate to iPhone 15 product page, select options, and place an order
 	- Step 5: Click on button 'Buy'
 	- Step 6: Click on link 'Place an order'
 Step 8: Click on button 'Increased'
-Step 9: Proceed through checkout steps, provide shipping info, select payment method, and complete order
+Step 9: Proceed through checkout process with shipping and payment details
 	- Step 1: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
 	- Step 2: Hover over div
 	- Step 3: Click on input field 'email'
@@ -47,14 +47,59 @@ Step 9: Proceed through checkout steps, provide shipping info, select payment me
 	- Step 31: Click on button 'COMPLETE ORDER' -> Navigate to page 'thank-you/*'
 	- Step 32: Take full page screenshot as checkpoint
 ",High
-4,Verify Order Placement from Product Details Page,"Navigate to the homepage, select a product, add to cart, and proceed to order. Complete checkout steps, provide shipping info, select payment method, and place the order.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+2,Add Accessories by Price and Complete Checkout,"Navigate to accessories category, sort by price, add items to cart, and increase quantity. Proceed through checkout with shipping and payment details.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Hover over list item
+Step 3: Click on link 'Accessories' -> Navigate to page 'category/*'
+Step 4: Click on link 'By price'
+Step 5: Sort by price, add to cart, and increase quantity
+	- Step 1: Click on link 'By price'
+	- Step 2: Click on button
+	- Step 3: Click on label
+	- Step 4: Click on button 'Buy'
+	- Step 5: Click on link 'Place an order' -> Navigate to page 'cart'
+	- Step 6: Click on button 'Increased'
+Step 6: Proceed through checkout process with shipping and payment details
+	- Step 1: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
+	- Step 2: Hover over div
+	- Step 3: Click on input field 'email'
+	- Step 4: Enter input value in input field 'email'
+	- Step 5: Click on input field 'receive marketing info'
+	- Step 6: Click on button 'CONTINUE TO SHIPPING' -> Navigate to page 'checkout/shipping-address'
+	- Step 7: Click on input field 'delivery id'
+	- Step 8: Hover over div
+	- Step 9: Click on input field 'shipping address.first name'
+	- Step 10: Hover over div
+	- Step 11: Enter input value in input field 'shipping address.first name'
+	- Step 12: Click on input field 'shipping address.last name'
+	- Step 13: Hover over div
+	- Step 14: Enter input value in input field 'shipping address.last name'
+	- Step 15: Click on input field 'shipping address.address line 1'
+	- Step 16: Hover over div
+	- Step 17: Enter input value in input field 'shipping address.address line 1'
+	- Step 18: Click on input field 'shipping address.zip'
+	- Step 19: Hover over div
+	- Step 20: Enter input value in input field 'shipping address.zip'
+	- Step 21: Click on input field 'shipping address.city'
+	- Step 22: Hover over div
+	- Step 23: Enter input value in input field 'shipping address.city'
+	- Step 24: Click on input field 'shipping address.state'
+	- Step 25: Hover over div
+	- Step 26: Enter input value in input field 'shipping address.state'
+	- Step 27: Click on input field 'shipping address.phone'
+	- Step 28: Enter input value in input field 'shipping address.phone'
+	- Step 29: Click on button 'CONTINUE TO PAYMENT' -> Navigate to page 'checkout/payment'
+	- Step 30: Click on input field 'payment method id'
+	- Step 31: Click on button 'COMPLETE ORDER' -> Navigate to page 'thank-you/*'
+	- Step 32: Take full page screenshot as checkpoint
+",Medium
+4,Purchase Items from Order Page and Checkout,"Navigate to the order page, select items, and proceed to checkout. Increase quantity and complete the checkout process with shipping and payment details.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Click on button
 Step 3: Click on label
 Step 4: Click on label
 Step 5: Click on button 'Buy'
 Step 6: Click on link 'Place an order' -> Navigate to page 'cart'
 Step 7: Click on button 'Increased'
-Step 8: Proceed through checkout steps, provide shipping info, select payment method, and complete order
+Step 8: Proceed through checkout process with shipping and payment details
 	- Step 1: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
 	- Step 2: Hover over div
 	- Step 3: Click on input field 'email'
@@ -87,8 +132,8 @@ Step 8: Proceed through checkout steps, provide shipping info, select payment me
 	- Step 30: Click on input field 'payment method id'
 	- Step 31: Click on button 'COMPLETE ORDER' -> Navigate to page 'thank-you/*'
 	- Step 32: Take full page screenshot as checkpoint
-",High
-6,Verify Order Placement with Multiple Product Selection,"Navigate to the homepage, select multiple products, add to cart, and increase quantity. Proceed through checkout steps, provide shipping info, select payment method, and complete the order.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+",Medium
+6,Add Multiple Items to Cart and Verify Checkout Completion,"Add multiple items to the cart, proceed to checkout, and provide shipping and payment details. Verify successful completion of the checkout process.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Hover over div
 Step 3: Click on div
 Step 4: Hover over link
@@ -107,52 +152,7 @@ Step 16: Hover over div
 Step 17: Click on button 'Add to cart'
 Step 18: Click on link 'Place an order' -> Navigate to page 'cart'
 Step 19: Click on button 'Increased'
-Step 20: Proceed through checkout steps, provide shipping info, select payment method, and complete order
-	- Step 1: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
-	- Step 2: Hover over div
-	- Step 3: Click on input field 'email'
-	- Step 4: Enter input value in input field 'email'
-	- Step 5: Click on input field 'receive marketing info'
-	- Step 6: Click on button 'CONTINUE TO SHIPPING' -> Navigate to page 'checkout/shipping-address'
-	- Step 7: Click on input field 'delivery id'
-	- Step 8: Hover over div
-	- Step 9: Click on input field 'shipping address.first name'
-	- Step 10: Hover over div
-	- Step 11: Enter input value in input field 'shipping address.first name'
-	- Step 12: Click on input field 'shipping address.last name'
-	- Step 13: Hover over div
-	- Step 14: Enter input value in input field 'shipping address.last name'
-	- Step 15: Click on input field 'shipping address.address line 1'
-	- Step 16: Hover over div
-	- Step 17: Enter input value in input field 'shipping address.address line 1'
-	- Step 18: Click on input field 'shipping address.zip'
-	- Step 19: Hover over div
-	- Step 20: Enter input value in input field 'shipping address.zip'
-	- Step 21: Click on input field 'shipping address.city'
-	- Step 22: Hover over div
-	- Step 23: Enter input value in input field 'shipping address.city'
-	- Step 24: Click on input field 'shipping address.state'
-	- Step 25: Hover over div
-	- Step 26: Enter input value in input field 'shipping address.state'
-	- Step 27: Click on input field 'shipping address.phone'
-	- Step 28: Enter input value in input field 'shipping address.phone'
-	- Step 29: Click on button 'CONTINUE TO PAYMENT' -> Navigate to page 'checkout/payment'
-	- Step 30: Click on input field 'payment method id'
-	- Step 31: Click on button 'COMPLETE ORDER' -> Navigate to page 'thank-you/*'
-	- Step 32: Take full page screenshot as checkpoint
-",High
-2,Verify Order Placement for Accessories by Price,"Navigate to the homepage, select accessories category, sort by price, add item to cart, and increase quantity. Proceed through checkout steps, provide shipping info, select payment method, and complete the order.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
-Step 2: Hover over list item
-Step 3: Click on link 'Accessories' -> Navigate to page 'category/*'
-Step 4: Click on link 'By price'
-Step 5: Sort products by price, add selected item to cart, and increase quantity
-	- Step 1: Click on link 'By price'
-	- Step 2: Click on button
-	- Step 3: Click on label
-	- Step 4: Click on button 'Buy'
-	- Step 5: Click on link 'Place an order' -> Navigate to page 'cart'
-	- Step 6: Click on button 'Increased'
-Step 6: Proceed through checkout steps, provide shipping info, select payment method, and complete order
+Step 20: Proceed through checkout process with shipping and payment details
 	- Step 1: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
 	- Step 2: Hover over div
 	- Step 3: Click on input field 'email'
@@ -186,17 +186,17 @@ Step 6: Proceed through checkout steps, provide shipping info, select payment me
 	- Step 31: Click on button 'COMPLETE ORDER' -> Navigate to page 'thank-you/*'
 	- Step 32: Take full page screenshot as checkpoint
 ",Medium
-3,Verify Order Placement for Apple Products by Price,"Navigate to the homepage, select Apple category, sort by price, add item to cart, and increase quantity. Proceed through checkout steps, provide shipping info, select payment method, and complete the order.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+3,Buy Apple Products and Complete Checkout,"Navigate to Apple category, add items to cart, increase quantity, and proceed through checkout with shipping and payment details.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Hover over list item
 Step 3: Click on link 'Apple'
-Step 4: Sort products by price, add selected item to cart, and increase quantity
+Step 4: Sort by price, add to cart, and increase quantity
 	- Step 1: Click on link 'By price'
 	- Step 2: Click on button
 	- Step 3: Click on label
 	- Step 4: Click on button 'Buy'
 	- Step 5: Click on link 'Place an order' -> Navigate to page 'cart'
 	- Step 6: Click on button 'Increased'
-Step 5: Proceed through checkout steps, provide shipping info, select payment method, and complete order
+Step 5: Proceed through checkout process with shipping and payment details
 	- Step 1: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
 	- Step 2: Hover over div
 	- Step 3: Click on input field 'email'
@@ -229,8 +229,8 @@ Step 5: Proceed through checkout steps, provide shipping info, select payment me
 	- Step 30: Click on input field 'payment method id'
 	- Step 31: Click on button 'COMPLETE ORDER' -> Navigate to page 'thank-you/*'
 	- Step 32: Take full page screenshot as checkpoint
-",Medium
-5,Verify Payment and Order Completion for Apple Products,"Navigate to the homepage, select Apple category, set price range, view products, and place an order. Proceed through checkout steps, select payment method, and complete the order. Verify the order completion page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+",Low
+5,Purchase Apple Product with Specific Payment Method and Verify Order Completion,"Navigate to Apple category, select and buy an item, proceed to payment, and complete the order with a specific payment method. Verify the thank you page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Hover over list item
 Step 3: Click on link 'Apple' -> Navigate to page 'category/*'
 Step 4: Enter input value in input field 'price min'
@@ -245,10 +245,10 @@ Step 12: Click on input field 'payment method id'
 Step 13: Click on button 'COMPLETE ORDER' -> Navigate to page 'thank-you/*'
 Step 14: Take full page screenshot as checkpoint
 ",Trivial
-7,Verify Order Modification and Completion for iPhone 15,"Navigate to the homepage, select iPhone 15, place an order, modify the order by removing an item, and place the order again. Proceed through checkout steps, provide shipping info, select payment method, and complete the order.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+7,Buy iPhone 15 Remove and Repurchase with Checkout Process,"Select and buy an iPhone 15, remove it, and repurchase. Proceed through checkout with shipping and payment details.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
 Step 2: Hover over list item
 Step 3: Click on link 'Apple'
-Step 4: Navigate to iPhone 15 product page, select options, and place an order
+Step 4: Select and buy an iPhone 15 from the product page
 	- Step 1: Click on link 'iPhone 15' -> Navigate to page 'product/*'
 	- Step 2: Click on label
 	- Step 3: Click on label
@@ -260,14 +260,14 @@ Step 6: Click on button 'Remove'
 Step 7: Click on link 'Go shopping!' -> Navigate to page ''
 Step 8: Hover over list item
 Step 9: Click on link 'Apple'
-Step 10: Navigate to iPhone 15 product page, select options, and place an order
+Step 10: Select and buy an iPhone 15 from the product page
 	- Step 1: Click on link 'iPhone 15' -> Navigate to page 'product/*'
 	- Step 2: Click on label
 	- Step 3: Click on label
 	- Step 4: Click on button
 	- Step 5: Click on button 'Buy'
 	- Step 6: Click on link 'Place an order'
-Step 11: Proceed through checkout steps, provide shipping info, select payment method, and complete order
+Step 11: Proceed through checkout process with shipping and payment details
 	- Step 1: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
 	- Step 2: Hover over div
 	- Step 3: Click on input field 'email'

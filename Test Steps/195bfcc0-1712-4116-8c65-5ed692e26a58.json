@@ -1,0 +1,9 @@
+{
+    "steps": [
+        "step 1: Navigate to https://cellphone-staging.aut.katalon.com/",
+        "step 2: Hover over list item",
+        "step 3: Click on link 'Apple'",
+        "step 4: Sort by price, add to cart, and increase quantity",
+        "step 5: Proceed through checkout process with shipping and payment details"
+    ]
+}

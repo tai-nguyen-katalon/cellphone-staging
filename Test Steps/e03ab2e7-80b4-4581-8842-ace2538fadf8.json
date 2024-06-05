@@ -1,0 +1,18 @@
+{
+    "steps": [
+        "step 1: Navigate to https://cellphone-staging.aut.katalon.com/",
+        "step 2: Hover over list item",
+        "step 3: Click on link 'Apple' -> Navigate to page 'category/*'",
+        "step 4: Enter input value in input field 'price min'",
+        "step 5: Enter input value in input field 'price max'",
+        "step 6: Click on button 'Show (4)'",
+        "step 7: Click on button",
+        "step 8: Click on label",
+        "step 9: Click on button 'Buy'",
+        "step 10: Hover over list item",
+        "step 11: Click on link 'Phone' -> Navigate to page 'checkout/payment'",
+        "step 12: Click on input field 'payment method id'",
+        "step 13: Click on button 'COMPLETE ORDER' -> Navigate to page 'thank-you/*'",
+        "step 14: Take full page screenshot as checkpoint"
+    ]
+}

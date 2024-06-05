@@ -1,0 +1,15 @@
+{
+    "steps": [
+        "step 1: Navigate to https://cellphone-staging.aut.katalon.com/",
+        "step 2: Hover over list item",
+        "step 3: Click on link 'Apple'",
+        "step 4: Select and buy an iPhone 15 from the product page",
+        "step 5: Click on button 'Increased'",
+        "step 6: Click on button 'Remove'",
+        "step 7: Click on link 'Go shopping!' -> Navigate to page ''",
+        "step 8: Hover over list item",
+        "step 9: Click on link 'Apple'",
+        "step 10: Select and buy an iPhone 15 from the product page",
+        "step 11: Proceed through checkout process with shipping and payment details"
+    ]
+}
