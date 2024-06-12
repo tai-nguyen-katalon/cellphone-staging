@@ -1,0 +1,11 @@
+{
+    "steps": [
+        "step 1: Navigate to https://cellphone-staging.aut.katalon.com/",
+        "step 2: Hover over item accessories",
+        "step 3: Click on link appleCategory -> Navigate to page 'category/*'",
+        "step 4: Click on link sortByPrice",
+        "step 5: Select and purchase iPhone 15 case and accessories",
+        "step 6: Provide shipping information and select payment method to complete order",
+        "step 7: Take full page screenshot as checkpoint"
+    ]
+}

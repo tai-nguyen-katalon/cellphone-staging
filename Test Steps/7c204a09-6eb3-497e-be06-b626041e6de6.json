@@ -1,0 +1,7 @@
+{
+    "steps": [
+        "step 1: Navigate to https://cellphone-staging.aut.katalon.com/",
+        "step 2: Navigate to Apple accessories category and filter by price range",
+        "step 3: Click on button iPhone15Case2"
+    ]
+}

@@ -1,303 +1,458 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-1,Buy iPhone 15 from Phone Category and Verify Checkout Process,"Navigate to the phone category, select and buy an iPhone 15. Proceed through checkout by providing shipping and payment details. Verify successful completion.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
-Step 2: Hover over list item
-Step 3: Click on link 'Phone' -> Navigate to page 'category/*'
-Step 4: Enter input value in input field 'price min'
-Step 5: Enter input value in input field 'price max'
-Step 6: Click on button 'Show (4)'
-Step 7: Select and buy an iPhone 15 from the product page
-	- Step 1: Click on link 'iPhone 15' -> Navigate to page 'product/*'
-	- Step 2: Click on label
-	- Step 3: Click on label
-	- Step 4: Click on button
-	- Step 5: Click on button 'Buy'
-	- Step 6: Click on link 'Place an order'
-Step 8: Click on button 'Increased'
-Step 9: Proceed through checkout process with shipping and payment details
-	- Step 1: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
-	- Step 2: Hover over div
-	- Step 3: Click on input field 'email'
-	- Step 4: Enter input value in input field 'email'
-	- Step 5: Click on input field 'receive marketing info'
-	- Step 6: Click on button 'CONTINUE TO SHIPPING' -> Navigate to page 'checkout/shipping-address'
-	- Step 7: Click on input field 'delivery id'
-	- Step 8: Hover over div
-	- Step 9: Click on input field 'shipping address.first name'
-	- Step 10: Hover over div
-	- Step 11: Enter input value in input field 'shipping address.first name'
-	- Step 12: Click on input field 'shipping address.last name'
-	- Step 13: Hover over div
-	- Step 14: Enter input value in input field 'shipping address.last name'
-	- Step 15: Click on input field 'shipping address.address line 1'
-	- Step 16: Hover over div
-	- Step 17: Enter input value in input field 'shipping address.address line 1'
-	- Step 18: Click on input field 'shipping address.zip'
-	- Step 19: Hover over div
-	- Step 20: Enter input value in input field 'shipping address.zip'
-	- Step 21: Click on input field 'shipping address.city'
-	- Step 22: Hover over div
-	- Step 23: Enter input value in input field 'shipping address.city'
-	- Step 24: Click on input field 'shipping address.state'
-	- Step 25: Hover over div
-	- Step 26: Enter input value in input field 'shipping address.state'
-	- Step 27: Click on input field 'shipping address.phone'
-	- Step 28: Enter input value in input field 'shipping address.phone'
-	- Step 29: Click on button 'CONTINUE TO PAYMENT' -> Navigate to page 'checkout/payment'
-	- Step 30: Click on input field 'payment method id'
-	- Step 31: Click on button 'COMPLETE ORDER' -> Navigate to page 'thank-you/*'
-	- Step 32: Take full page screenshot as checkpoint
+1,Verify Navigation and Category Access,"Navigate to the homepage, access the accessories category, and verify the category page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Hover over item accessories
+Step 3: Click on link accessoriesCategory -> Navigate to page 'category/*'
+Step 4: Take full page screenshot as checkpoint
 ",High
-2,Add Accessories by Price and Complete Checkout,"Navigate to accessories category, sort by price, add items to cart, and increase quantity. Proceed through checkout with shipping and payment details.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
-Step 2: Hover over list item
-Step 3: Click on link 'Accessories' -> Navigate to page 'category/*'
-Step 4: Click on link 'By price'
-Step 5: Sort by price, add to cart, and increase quantity
-	- Step 1: Click on link 'By price'
-	- Step 2: Click on button
-	- Step 3: Click on label
-	- Step 4: Click on button 'Buy'
-	- Step 5: Click on link 'Place an order' -> Navigate to page 'cart'
-	- Step 6: Click on button 'Increased'
-Step 6: Proceed through checkout process with shipping and payment details
-	- Step 1: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
-	- Step 2: Hover over div
-	- Step 3: Click on input field 'email'
-	- Step 4: Enter input value in input field 'email'
-	- Step 5: Click on input field 'receive marketing info'
-	- Step 6: Click on button 'CONTINUE TO SHIPPING' -> Navigate to page 'checkout/shipping-address'
-	- Step 7: Click on input field 'delivery id'
-	- Step 8: Hover over div
-	- Step 9: Click on input field 'shipping address.first name'
-	- Step 10: Hover over div
-	- Step 11: Enter input value in input field 'shipping address.first name'
-	- Step 12: Click on input field 'shipping address.last name'
-	- Step 13: Hover over div
-	- Step 14: Enter input value in input field 'shipping address.last name'
-	- Step 15: Click on input field 'shipping address.address line 1'
-	- Step 16: Hover over div
-	- Step 17: Enter input value in input field 'shipping address.address line 1'
-	- Step 18: Click on input field 'shipping address.zip'
-	- Step 19: Hover over div
-	- Step 20: Enter input value in input field 'shipping address.zip'
-	- Step 21: Click on input field 'shipping address.city'
-	- Step 22: Hover over div
-	- Step 23: Enter input value in input field 'shipping address.city'
-	- Step 24: Click on input field 'shipping address.state'
-	- Step 25: Hover over div
-	- Step 26: Enter input value in input field 'shipping address.state'
-	- Step 27: Click on input field 'shipping address.phone'
-	- Step 28: Enter input value in input field 'shipping address.phone'
-	- Step 29: Click on button 'CONTINUE TO PAYMENT' -> Navigate to page 'checkout/payment'
-	- Step 30: Click on input field 'payment method id'
-	- Step 31: Click on button 'COMPLETE ORDER' -> Navigate to page 'thank-you/*'
-	- Step 32: Take full page screenshot as checkpoint
+2,Verify Order Placement for Google Pixel 7 Pro,"Navigate to the homepage, add Google Pixel 7 Pro to the cart, proceed to checkout, provide shipping info, select payment, and verify order completion.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Click on button googlePixel7Pro
+Step 3: Click on link placeOrderCart2 -> Navigate to page 'cart'
+Step 4: Click on button increased
+Step 5: Provide shipping information and select payment method to complete order
+	- Step 1: Click on button proceedCheckout -> Navigate to page 'checkout/info'
+	- Step 2: Hover over div emailSubscription
+	- Step 3: Click on input email
+	- Step 4: Enter input value in input email
+	- Step 5: Click on checkbox marketingInfo
+	- Step 6: Click on button continueShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 7: Click on radio usshipping
+	- Step 8: Hover over div muiInputBase
+	- Step 9: Click on input firstName
+	- Step 10: Hover over div muiFormControl
+	- Step 11: Enter input value in input firstName
+	- Step 12: Click on input lastName
+	- Step 13: Hover over div muiFormControl
+	- Step 14: Enter input value in input lastName
+	- Step 15: Click on input address
+	- Step 16: Hover over div muiFormControl
+	- Step 17: Enter input value in input address
+	- Step 18: Click on input zipcode
+	- Step 19: Hover over div muiFormControl
+	- Step 20: Enter input value in input zipcode
+	- Step 21: Click on input city
+	- Step 22: Hover over div muiFormControl
+	- Step 23: Enter input value in input city
+	- Step 24: Click on input state
+	- Step 25: Hover over div muiFormControl
+	- Step 26: Enter input value in input state
+	- Step 27: Click on input phoneShipping
+	- Step 28: Enter input value in input phoneShipping
+	- Step 29: Click on button continuePayment -> Navigate to page 'checkout/payment'
+	- Step 30: Click on radio cashOnDelivery
+	- Step 31: Click on button completeOrder
+Step 6: Take full page screenshot as checkpoint
+",High
+8,Verify Order Placement for Hot New iPhone with Accessories,"Navigate to the homepage, add Hot New iPhone with specific accessories to the cart, complete the order process, and verify order completion.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Click on button hotNewiPhone
+Step 3: Click on label 256Gb
+Step 4: Click on label naturalTitanium
+Step 5: Click on button buyDialog2
+Step 6: Click on link placeOrderCart2 -> Navigate to page 'cart'
+Step 7: Click on button increased
+Step 8: Provide shipping information and select payment method to complete order
+	- Step 1: Click on button proceedCheckout -> Navigate to page 'checkout/info'
+	- Step 2: Hover over div emailSubscription
+	- Step 3: Click on input email
+	- Step 4: Enter input value in input email
+	- Step 5: Click on checkbox marketingInfo
+	- Step 6: Click on button continueShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 7: Click on radio usshipping
+	- Step 8: Hover over div muiInputBase
+	- Step 9: Click on input firstName
+	- Step 10: Hover over div muiFormControl
+	- Step 11: Enter input value in input firstName
+	- Step 12: Click on input lastName
+	- Step 13: Hover over div muiFormControl
+	- Step 14: Enter input value in input lastName
+	- Step 15: Click on input address
+	- Step 16: Hover over div muiFormControl
+	- Step 17: Enter input value in input address
+	- Step 18: Click on input zipcode
+	- Step 19: Hover over div muiFormControl
+	- Step 20: Enter input value in input zipcode
+	- Step 21: Click on input city
+	- Step 22: Hover over div muiFormControl
+	- Step 23: Enter input value in input city
+	- Step 24: Click on input state
+	- Step 25: Hover over div muiFormControl
+	- Step 26: Enter input value in input state
+	- Step 27: Click on input phoneShipping
+	- Step 28: Enter input value in input phoneShipping
+	- Step 29: Click on button continuePayment -> Navigate to page 'checkout/payment'
+	- Step 30: Click on radio cashOnDelivery
+	- Step 31: Click on button completeOrder
+Step 9: Take full page screenshot as checkpoint
+",High
+12,Verify Order Placement for Samsung Galaxy Zfold4 Cover,"Navigate to the homepage, add Samsung Galaxy Zfold4 Cover to the cart, complete the order process, and verify order completion.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Hover over div productsSlider
+Step 3: Click on div productsSliderWrapper
+Step 4: Hover over link productsSliderNext
+Step 5: Click on link productsSliderNextChevron
+Step 6: Click on link productsSliderNextChevron
+Step 7: Click on link productsSliderNextChevron
+Step 8: Click on link productsSliderNextChevron
+Step 9: Click on link productsSliderNextChevron
+Step 10: Click on link productsSliderNextChevron
+Step 11: Click on link productsSliderNextChevron
+Step 12: Click on link productsSliderNextChevron
+Step 13: Click on link productsSliderNextChevron
+Step 14: Click on link productsSliderNextChevron
+Step 15: Click on link productsSliderNextChevron
+Step 16: Hover over div samsungGalaxyZfold4Cover
+Step 17: Click on button addToCart
+Step 18: Click on link placeOrderCart2 -> Navigate to page 'cart'
+Step 19: Click on button increased
+Step 20: Provide shipping information and select payment method to complete order
+	- Step 1: Click on button proceedCheckout -> Navigate to page 'checkout/info'
+	- Step 2: Hover over div emailSubscription
+	- Step 3: Click on input email
+	- Step 4: Enter input value in input email
+	- Step 5: Click on checkbox marketingInfo
+	- Step 6: Click on button continueShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 7: Click on radio usshipping
+	- Step 8: Hover over div muiInputBase
+	- Step 9: Click on input firstName
+	- Step 10: Hover over div muiFormControl
+	- Step 11: Enter input value in input firstName
+	- Step 12: Click on input lastName
+	- Step 13: Hover over div muiFormControl
+	- Step 14: Enter input value in input lastName
+	- Step 15: Click on input address
+	- Step 16: Hover over div muiFormControl
+	- Step 17: Enter input value in input address
+	- Step 18: Click on input zipcode
+	- Step 19: Hover over div muiFormControl
+	- Step 20: Enter input value in input zipcode
+	- Step 21: Click on input city
+	- Step 22: Hover over div muiFormControl
+	- Step 23: Enter input value in input city
+	- Step 24: Click on input state
+	- Step 25: Hover over div muiFormControl
+	- Step 26: Enter input value in input state
+	- Step 27: Click on input phoneShipping
+	- Step 28: Enter input value in input phoneShipping
+	- Step 29: Click on button continuePayment -> Navigate to page 'checkout/payment'
+	- Step 30: Click on radio cashOnDelivery
+	- Step 31: Click on button completeOrder
+Step 21: Take full page screenshot as checkpoint
+",High
+6,Verify Order Placement for Specific iPhone 15 Configuration,"Navigate to the homepage, select a specific iPhone 15 configuration, add to cart, provide shipping info, select payment, and verify order completion.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Hover over item phone2
+Step 3: Click on link phoneCategory -> Navigate to page 'category/*'
+Step 4: Enter input value in input priceMin
+Step 5: Enter input value in input priceMax
+Step 6: Click on button show6
+Step 7: View and buy specific configuration of iPhone 15
+	- Step 1: Click on link iPhone15 -> Navigate to page 'product/*'
+	- Step 2: Click on label 128Gb
+	- Step 3: Click on label blue
+	- Step 4: Click on button btn1
+	- Step 5: Click on button buy
+	- Step 6: Click on link placeOrderCart2
+Step 8: Click on button increased
+Step 9: Provide shipping information and select payment method to complete order
+	- Step 1: Click on button proceedCheckout -> Navigate to page 'checkout/info'
+	- Step 2: Hover over div emailSubscription
+	- Step 3: Click on input email
+	- Step 4: Enter input value in input email
+	- Step 5: Click on checkbox marketingInfo
+	- Step 6: Click on button continueShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 7: Click on radio usshipping
+	- Step 8: Hover over div muiInputBase
+	- Step 9: Click on input firstName
+	- Step 10: Hover over div muiFormControl
+	- Step 11: Enter input value in input firstName
+	- Step 12: Click on input lastName
+	- Step 13: Hover over div muiFormControl
+	- Step 14: Enter input value in input lastName
+	- Step 15: Click on input address
+	- Step 16: Hover over div muiFormControl
+	- Step 17: Enter input value in input address
+	- Step 18: Click on input zipcode
+	- Step 19: Hover over div muiFormControl
+	- Step 20: Enter input value in input zipcode
+	- Step 21: Click on input city
+	- Step 22: Hover over div muiFormControl
+	- Step 23: Enter input value in input city
+	- Step 24: Click on input state
+	- Step 25: Hover over div muiFormControl
+	- Step 26: Enter input value in input state
+	- Step 27: Click on input phoneShipping
+	- Step 28: Enter input value in input phoneShipping
+	- Step 29: Click on button continuePayment -> Navigate to page 'checkout/payment'
+	- Step 30: Click on radio cashOnDelivery
+	- Step 31: Click on button completeOrder
+Step 10: Take full page screenshot as checkpoint
+",High
+3,Verify Purchase of iPhone 15 Case in Apple Accessories Category,"Navigate to the homepage, access Apple accessories category, filter by price, and purchase an iPhone 15 case.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Navigate to Apple accessories category and filter by price range
+	- Step 1: Hover over item accessories
+	- Step 2: Click on link appleCategory -> Navigate to page 'category/*'
+	- Step 3: Enter input value in input priceMin
+	- Step 4: Enter input value in input priceMax
+	- Step 5: Click on button show6
+Step 3: Click on button iPhone15Case2
 ",Medium
-4,Purchase Items from Order Page and Checkout,"Navigate to the order page, select items, and proceed to checkout. Increase quantity and complete the checkout process with shipping and payment details.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
-Step 2: Click on button
-Step 3: Click on label
-Step 4: Click on label
-Step 5: Click on button 'Buy'
-Step 6: Click on link 'Place an order' -> Navigate to page 'cart'
-Step 7: Click on button 'Increased'
-Step 8: Proceed through checkout process with shipping and payment details
-	- Step 1: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
-	- Step 2: Hover over div
-	- Step 3: Click on input field 'email'
-	- Step 4: Enter input value in input field 'email'
-	- Step 5: Click on input field 'receive marketing info'
-	- Step 6: Click on button 'CONTINUE TO SHIPPING' -> Navigate to page 'checkout/shipping-address'
-	- Step 7: Click on input field 'delivery id'
-	- Step 8: Hover over div
-	- Step 9: Click on input field 'shipping address.first name'
-	- Step 10: Hover over div
-	- Step 11: Enter input value in input field 'shipping address.first name'
-	- Step 12: Click on input field 'shipping address.last name'
-	- Step 13: Hover over div
-	- Step 14: Enter input value in input field 'shipping address.last name'
-	- Step 15: Click on input field 'shipping address.address line 1'
-	- Step 16: Hover over div
-	- Step 17: Enter input value in input field 'shipping address.address line 1'
-	- Step 18: Click on input field 'shipping address.zip'
-	- Step 19: Hover over div
-	- Step 20: Enter input value in input field 'shipping address.zip'
-	- Step 21: Click on input field 'shipping address.city'
-	- Step 22: Hover over div
-	- Step 23: Enter input value in input field 'shipping address.city'
-	- Step 24: Click on input field 'shipping address.state'
-	- Step 25: Hover over div
-	- Step 26: Enter input value in input field 'shipping address.state'
-	- Step 27: Click on input field 'shipping address.phone'
-	- Step 28: Enter input value in input field 'shipping address.phone'
-	- Step 29: Click on button 'CONTINUE TO PAYMENT' -> Navigate to page 'checkout/payment'
-	- Step 30: Click on input field 'payment method id'
-	- Step 31: Click on button 'COMPLETE ORDER' -> Navigate to page 'thank-you/*'
-	- Step 32: Take full page screenshot as checkpoint
+4,Verify Purchase of iPhone 15 Case and Accessories,"Navigate to the homepage, access Apple accessories category, purchase an iPhone 15 case and accessories, provide shipping info, select payment, and verify order completion.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Navigate to Apple accessories category and filter by price range
+	- Step 1: Hover over item accessories
+	- Step 2: Click on link appleCategory -> Navigate to page 'category/*'
+	- Step 3: Enter input value in input priceMin
+	- Step 4: Enter input value in input priceMax
+	- Step 5: Click on button show6
+Step 3: Select and purchase iPhone 15 case and accessories
+	- Step 1: Click on button iPhone15Case2
+	- Step 2: Click on label dialogLabel
+	- Step 3: Click on button buyDialog2
+	- Step 4: Click on link placeOrderCart2 -> Navigate to page 'cart'
+	- Step 5: Click on button increased
+Step 4: Provide shipping information and select payment method to complete order
+	- Step 1: Click on button proceedCheckout -> Navigate to page 'checkout/info'
+	- Step 2: Hover over div emailSubscription
+	- Step 3: Click on input email
+	- Step 4: Enter input value in input email
+	- Step 5: Click on checkbox marketingInfo
+	- Step 6: Click on button continueShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 7: Click on radio usshipping
+	- Step 8: Hover over div muiInputBase
+	- Step 9: Click on input firstName
+	- Step 10: Hover over div muiFormControl
+	- Step 11: Enter input value in input firstName
+	- Step 12: Click on input lastName
+	- Step 13: Hover over div muiFormControl
+	- Step 14: Enter input value in input lastName
+	- Step 15: Click on input address
+	- Step 16: Hover over div muiFormControl
+	- Step 17: Enter input value in input address
+	- Step 18: Click on input zipcode
+	- Step 19: Hover over div muiFormControl
+	- Step 20: Enter input value in input zipcode
+	- Step 21: Click on input city
+	- Step 22: Hover over div muiFormControl
+	- Step 23: Enter input value in input city
+	- Step 24: Click on input state
+	- Step 25: Hover over div muiFormControl
+	- Step 26: Enter input value in input state
+	- Step 27: Click on input phoneShipping
+	- Step 28: Enter input value in input phoneShipping
+	- Step 29: Click on button continuePayment -> Navigate to page 'checkout/payment'
+	- Step 30: Click on radio cashOnDelivery
+	- Step 31: Click on button completeOrder
+Step 5: Take full page screenshot as checkpoint
 ",Medium
-6,Add Multiple Items to Cart and Verify Checkout Completion,"Add multiple items to the cart, proceed to checkout, and provide shipping and payment details. Verify successful completion of the checkout process.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
-Step 2: Hover over div
-Step 3: Click on div
-Step 4: Hover over link
-Step 5: Click on link
-Step 6: Click on link
-Step 7: Click on link
-Step 8: Click on link
-Step 9: Click on link
-Step 10: Click on link
-Step 11: Click on link
-Step 12: Click on link
-Step 13: Click on link
-Step 14: Click on link
-Step 15: Click on link
-Step 16: Hover over div
-Step 17: Click on button 'Add to cart'
-Step 18: Click on link 'Place an order' -> Navigate to page 'cart'
-Step 19: Click on button 'Increased'
-Step 20: Proceed through checkout process with shipping and payment details
-	- Step 1: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
-	- Step 2: Hover over div
-	- Step 3: Click on input field 'email'
-	- Step 4: Enter input value in input field 'email'
-	- Step 5: Click on input field 'receive marketing info'
-	- Step 6: Click on button 'CONTINUE TO SHIPPING' -> Navigate to page 'checkout/shipping-address'
-	- Step 7: Click on input field 'delivery id'
-	- Step 8: Hover over div
-	- Step 9: Click on input field 'shipping address.first name'
-	- Step 10: Hover over div
-	- Step 11: Enter input value in input field 'shipping address.first name'
-	- Step 12: Click on input field 'shipping address.last name'
-	- Step 13: Hover over div
-	- Step 14: Enter input value in input field 'shipping address.last name'
-	- Step 15: Click on input field 'shipping address.address line 1'
-	- Step 16: Hover over div
-	- Step 17: Enter input value in input field 'shipping address.address line 1'
-	- Step 18: Click on input field 'shipping address.zip'
-	- Step 19: Hover over div
-	- Step 20: Enter input value in input field 'shipping address.zip'
-	- Step 21: Click on input field 'shipping address.city'
-	- Step 22: Hover over div
-	- Step 23: Enter input value in input field 'shipping address.city'
-	- Step 24: Click on input field 'shipping address.state'
-	- Step 25: Hover over div
-	- Step 26: Enter input value in input field 'shipping address.state'
-	- Step 27: Click on input field 'shipping address.phone'
-	- Step 28: Enter input value in input field 'shipping address.phone'
-	- Step 29: Click on button 'CONTINUE TO PAYMENT' -> Navigate to page 'checkout/payment'
-	- Step 30: Click on input field 'payment method id'
-	- Step 31: Click on button 'COMPLETE ORDER' -> Navigate to page 'thank-you/*'
-	- Step 32: Take full page screenshot as checkpoint
+5,Verify Purchase of iPhone 15 Case in Apple Category by Price,"Navigate to the homepage, access Apple accessories category, sort by price, purchase an iPhone 15 case and accessories, provide shipping info, select payment, and verify order completion.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Hover over item accessories
+Step 3: Click on link appleCategory -> Navigate to page 'category/*'
+Step 4: Click on link sortByPrice
+Step 5: Select and purchase iPhone 15 case and accessories
+	- Step 1: Click on button iPhone15Case2
+	- Step 2: Click on label dialogLabel
+	- Step 3: Click on button buyDialog2
+	- Step 4: Click on link placeOrderCart2 -> Navigate to page 'cart'
+	- Step 5: Click on button increased
+Step 6: Provide shipping information and select payment method to complete order
+	- Step 1: Click on button proceedCheckout -> Navigate to page 'checkout/info'
+	- Step 2: Hover over div emailSubscription
+	- Step 3: Click on input email
+	- Step 4: Enter input value in input email
+	- Step 5: Click on checkbox marketingInfo
+	- Step 6: Click on button continueShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 7: Click on radio usshipping
+	- Step 8: Hover over div muiInputBase
+	- Step 9: Click on input firstName
+	- Step 10: Hover over div muiFormControl
+	- Step 11: Enter input value in input firstName
+	- Step 12: Click on input lastName
+	- Step 13: Hover over div muiFormControl
+	- Step 14: Enter input value in input lastName
+	- Step 15: Click on input address
+	- Step 16: Hover over div muiFormControl
+	- Step 17: Enter input value in input address
+	- Step 18: Click on input zipcode
+	- Step 19: Hover over div muiFormControl
+	- Step 20: Enter input value in input zipcode
+	- Step 21: Click on input city
+	- Step 22: Hover over div muiFormControl
+	- Step 23: Enter input value in input city
+	- Step 24: Click on input state
+	- Step 25: Hover over div muiFormControl
+	- Step 26: Enter input value in input state
+	- Step 27: Click on input phoneShipping
+	- Step 28: Enter input value in input phoneShipping
+	- Step 29: Click on button continuePayment -> Navigate to page 'checkout/payment'
+	- Step 30: Click on radio cashOnDelivery
+	- Step 31: Click on button completeOrder
+Step 7: Take full page screenshot as checkpoint
 ",Medium
-3,Buy Apple Products and Complete Checkout,"Navigate to Apple category, add items to cart, increase quantity, and proceed through checkout with shipping and payment details.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
-Step 2: Hover over list item
-Step 3: Click on link 'Apple'
-Step 4: Sort by price, add to cart, and increase quantity
-	- Step 1: Click on link 'By price'
-	- Step 2: Click on button
-	- Step 3: Click on label
-	- Step 4: Click on button 'Buy'
-	- Step 5: Click on link 'Place an order' -> Navigate to page 'cart'
-	- Step 6: Click on button 'Increased'
-Step 5: Proceed through checkout process with shipping and payment details
-	- Step 1: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
-	- Step 2: Hover over div
-	- Step 3: Click on input field 'email'
-	- Step 4: Enter input value in input field 'email'
-	- Step 5: Click on input field 'receive marketing info'
-	- Step 6: Click on button 'CONTINUE TO SHIPPING' -> Navigate to page 'checkout/shipping-address'
-	- Step 7: Click on input field 'delivery id'
-	- Step 8: Hover over div
-	- Step 9: Click on input field 'shipping address.first name'
-	- Step 10: Hover over div
-	- Step 11: Enter input value in input field 'shipping address.first name'
-	- Step 12: Click on input field 'shipping address.last name'
-	- Step 13: Hover over div
-	- Step 14: Enter input value in input field 'shipping address.last name'
-	- Step 15: Click on input field 'shipping address.address line 1'
-	- Step 16: Hover over div
-	- Step 17: Enter input value in input field 'shipping address.address line 1'
-	- Step 18: Click on input field 'shipping address.zip'
-	- Step 19: Hover over div
-	- Step 20: Enter input value in input field 'shipping address.zip'
-	- Step 21: Click on input field 'shipping address.city'
-	- Step 22: Hover over div
-	- Step 23: Enter input value in input field 'shipping address.city'
-	- Step 24: Click on input field 'shipping address.state'
-	- Step 25: Hover over div
-	- Step 26: Enter input value in input field 'shipping address.state'
-	- Step 27: Click on input field 'shipping address.phone'
-	- Step 28: Enter input value in input field 'shipping address.phone'
-	- Step 29: Click on button 'CONTINUE TO PAYMENT' -> Navigate to page 'checkout/payment'
-	- Step 30: Click on input field 'payment method id'
-	- Step 31: Click on button 'COMPLETE ORDER' -> Navigate to page 'thank-you/*'
-	- Step 32: Take full page screenshot as checkpoint
+9,Verify Purchase of iPhone 15 Case and Accessories with Dialog Interaction,"Navigate to the homepage, access Apple accessories category, add items to the cart with dialog interaction, provide shipping info, select payment, and verify order completion.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Navigate to Apple accessories category and filter by price range
+	- Step 1: Hover over item accessories
+	- Step 2: Click on link appleCategory -> Navigate to page 'category/*'
+	- Step 3: Enter input value in input priceMin
+	- Step 4: Enter input value in input priceMax
+	- Step 5: Click on button show6
+Step 3: Click on button addToCart
+Step 4: Click on label dialogLabel
+Step 5: Click on button buyDialog2
+Step 6: Click on link placeOrderCart2 -> Navigate to page 'cart'
+Step 7: Click on button increased
+Step 8: Provide shipping information and select payment method to complete order
+	- Step 1: Click on button proceedCheckout -> Navigate to page 'checkout/info'
+	- Step 2: Hover over div emailSubscription
+	- Step 3: Click on input email
+	- Step 4: Enter input value in input email
+	- Step 5: Click on checkbox marketingInfo
+	- Step 6: Click on button continueShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 7: Click on radio usshipping
+	- Step 8: Hover over div muiInputBase
+	- Step 9: Click on input firstName
+	- Step 10: Hover over div muiFormControl
+	- Step 11: Enter input value in input firstName
+	- Step 12: Click on input lastName
+	- Step 13: Hover over div muiFormControl
+	- Step 14: Enter input value in input lastName
+	- Step 15: Click on input address
+	- Step 16: Hover over div muiFormControl
+	- Step 17: Enter input value in input address
+	- Step 18: Click on input zipcode
+	- Step 19: Hover over div muiFormControl
+	- Step 20: Enter input value in input zipcode
+	- Step 21: Click on input city
+	- Step 22: Hover over div muiFormControl
+	- Step 23: Enter input value in input city
+	- Step 24: Click on input state
+	- Step 25: Hover over div muiFormControl
+	- Step 26: Enter input value in input state
+	- Step 27: Click on input phoneShipping
+	- Step 28: Enter input value in input phoneShipping
+	- Step 29: Click on button continuePayment -> Navigate to page 'checkout/payment'
+	- Step 30: Click on radio cashOnDelivery
+	- Step 31: Click on button completeOrder
+Step 9: Take full page screenshot as checkpoint
 ",Low
-5,Purchase Apple Product with Specific Payment Method and Verify Order Completion,"Navigate to Apple category, select and buy an item, proceed to payment, and complete the order with a specific payment method. Verify the thank you page.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
-Step 2: Hover over list item
-Step 3: Click on link 'Apple' -> Navigate to page 'category/*'
-Step 4: Enter input value in input field 'price min'
-Step 5: Enter input value in input field 'price max'
-Step 6: Click on button 'Show (4)'
-Step 7: Click on button
-Step 8: Click on label
-Step 9: Click on button 'Buy'
-Step 10: Hover over list item
-Step 11: Click on link 'Phone' -> Navigate to page 'checkout/payment'
-Step 12: Click on input field 'payment method id'
-Step 13: Click on button 'COMPLETE ORDER' -> Navigate to page 'thank-you/*'
-Step 14: Take full page screenshot as checkpoint
+11,Verify Purchase and Removal of iPhone 15 Configuration,"Navigate to the homepage, view and buy a specific iPhone 15 configuration, remove an item, and verify order completion.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Hover over item phone2
+Step 3: Click on link appleCategory2
+Step 4: View and buy specific configuration of iPhone 15
+	- Step 1: Click on link iPhone15 -> Navigate to page 'product/*'
+	- Step 2: Click on label 128Gb
+	- Step 3: Click on label blue
+	- Step 4: Click on button btn1
+	- Step 5: Click on button buy
+	- Step 6: Click on link placeOrderCart2
+Step 5: Click on button increased
+Step 6: Click on button remove
+Step 7: Click on link goShopping -> Navigate to page ''
+Step 8: Hover over item phone2
+Step 9: Click on link appleCategory2
+Step 10: View and buy specific configuration of iPhone 15
+	- Step 1: Click on link iPhone15 -> Navigate to page 'product/*'
+	- Step 2: Click on label 128Gb
+	- Step 3: Click on label blue
+	- Step 4: Click on button btn1
+	- Step 5: Click on button buy
+	- Step 6: Click on link placeOrderCart2
+Step 11: Provide shipping information and select payment method to complete order
+	- Step 1: Click on button proceedCheckout -> Navigate to page 'checkout/info'
+	- Step 2: Hover over div emailSubscription
+	- Step 3: Click on input email
+	- Step 4: Enter input value in input email
+	- Step 5: Click on checkbox marketingInfo
+	- Step 6: Click on button continueShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 7: Click on radio usshipping
+	- Step 8: Hover over div muiInputBase
+	- Step 9: Click on input firstName
+	- Step 10: Hover over div muiFormControl
+	- Step 11: Enter input value in input firstName
+	- Step 12: Click on input lastName
+	- Step 13: Hover over div muiFormControl
+	- Step 14: Enter input value in input lastName
+	- Step 15: Click on input address
+	- Step 16: Hover over div muiFormControl
+	- Step 17: Enter input value in input address
+	- Step 18: Click on input zipcode
+	- Step 19: Hover over div muiFormControl
+	- Step 20: Enter input value in input zipcode
+	- Step 21: Click on input city
+	- Step 22: Hover over div muiFormControl
+	- Step 23: Enter input value in input city
+	- Step 24: Click on input state
+	- Step 25: Hover over div muiFormControl
+	- Step 26: Enter input value in input state
+	- Step 27: Click on input phoneShipping
+	- Step 28: Enter input value in input phoneShipping
+	- Step 29: Click on button continuePayment -> Navigate to page 'checkout/payment'
+	- Step 30: Click on radio cashOnDelivery
+	- Step 31: Click on button completeOrder
+Step 12: Take full page screenshot as checkpoint
 ",Trivial
-7,Buy iPhone 15 Remove and Repurchase with Checkout Process,"Select and buy an iPhone 15, remove it, and repurchase. Proceed through checkout with shipping and payment details.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
-Step 2: Hover over list item
-Step 3: Click on link 'Apple'
-Step 4: Select and buy an iPhone 15 from the product page
-	- Step 1: Click on link 'iPhone 15' -> Navigate to page 'product/*'
-	- Step 2: Click on label
-	- Step 3: Click on label
-	- Step 4: Click on button
-	- Step 5: Click on button 'Buy'
-	- Step 6: Click on link 'Place an order'
-Step 5: Click on button 'Increased'
-Step 6: Click on button 'Remove'
-Step 7: Click on link 'Go shopping!' -> Navigate to page ''
-Step 8: Hover over list item
-Step 9: Click on link 'Apple'
-Step 10: Select and buy an iPhone 15 from the product page
-	- Step 1: Click on link 'iPhone 15' -> Navigate to page 'product/*'
-	- Step 2: Click on label
-	- Step 3: Click on label
-	- Step 4: Click on button
-	- Step 5: Click on button 'Buy'
-	- Step 6: Click on link 'Place an order'
-Step 11: Proceed through checkout process with shipping and payment details
-	- Step 1: Click on button 'Proceed to checkout' -> Navigate to page 'checkout/info'
-	- Step 2: Hover over div
-	- Step 3: Click on input field 'email'
-	- Step 4: Enter input value in input field 'email'
-	- Step 5: Click on input field 'receive marketing info'
-	- Step 6: Click on button 'CONTINUE TO SHIPPING' -> Navigate to page 'checkout/shipping-address'
-	- Step 7: Click on input field 'delivery id'
-	- Step 8: Hover over div
-	- Step 9: Click on input field 'shipping address.first name'
-	- Step 10: Hover over div
-	- Step 11: Enter input value in input field 'shipping address.first name'
-	- Step 12: Click on input field 'shipping address.last name'
-	- Step 13: Hover over div
-	- Step 14: Enter input value in input field 'shipping address.last name'
-	- Step 15: Click on input field 'shipping address.address line 1'
-	- Step 16: Hover over div
-	- Step 17: Enter input value in input field 'shipping address.address line 1'
-	- Step 18: Click on input field 'shipping address.zip'
-	- Step 19: Hover over div
-	- Step 20: Enter input value in input field 'shipping address.zip'
-	- Step 21: Click on input field 'shipping address.city'
-	- Step 22: Hover over div
-	- Step 23: Enter input value in input field 'shipping address.city'
-	- Step 24: Click on input field 'shipping address.state'
-	- Step 25: Hover over div
-	- Step 26: Enter input value in input field 'shipping address.state'
-	- Step 27: Click on input field 'shipping address.phone'
-	- Step 28: Enter input value in input field 'shipping address.phone'
-	- Step 29: Click on button 'CONTINUE TO PAYMENT' -> Navigate to page 'checkout/payment'
-	- Step 30: Click on input field 'payment method id'
-	- Step 31: Click on button 'COMPLETE ORDER' -> Navigate to page 'thank-you/*'
-	- Step 32: Take full page screenshot as checkpoint
+7,Verify Purchase of iPhone 15 Case and Specific Phone Configuration,"Navigate to the homepage, access Apple accessories category, purchase an iPhone 15 case, view and buy a specific phone configuration, provide shipping info, select payment, and verify order completion.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Navigate to Apple accessories category and filter by price range
+	- Step 1: Hover over item accessories
+	- Step 2: Click on link appleCategory -> Navigate to page 'category/*'
+	- Step 3: Enter input value in input priceMin
+	- Step 4: Enter input value in input priceMax
+	- Step 5: Click on button show6
+Step 3: Click on button iPhone15Case2
+Step 4: Click on label dialogLabel
+Step 5: Click on button buyDialog2
+Step 6: Hover over item phone2
+Step 7: Click on link phoneCategory2
+Step 8: Enter input value in input priceMin
+Step 9: Enter input value in input priceMax
+Step 10: Click on button show6
+Step 11: View and buy specific configuration of iPhone 15
+	- Step 1: Click on link iPhone15 -> Navigate to page 'product/*'
+	- Step 2: Click on label 128Gb
+	- Step 3: Click on label blue
+	- Step 4: Click on button btn1
+	- Step 5: Click on button buy
+	- Step 6: Click on link placeOrderCart2
+Step 12: Provide shipping information and select payment method to complete order
+	- Step 1: Click on button proceedCheckout -> Navigate to page 'checkout/info'
+	- Step 2: Hover over div emailSubscription
+	- Step 3: Click on input email
+	- Step 4: Enter input value in input email
+	- Step 5: Click on checkbox marketingInfo
+	- Step 6: Click on button continueShipping -> Navigate to page 'checkout/shipping-address'
+	- Step 7: Click on radio usshipping
+	- Step 8: Hover over div muiInputBase
+	- Step 9: Click on input firstName
+	- Step 10: Hover over div muiFormControl
+	- Step 11: Enter input value in input firstName
+	- Step 12: Click on input lastName
+	- Step 13: Hover over div muiFormControl
+	- Step 14: Enter input value in input lastName
+	- Step 15: Click on input address
+	- Step 16: Hover over div muiFormControl
+	- Step 17: Enter input value in input address
+	- Step 18: Click on input zipcode
+	- Step 19: Hover over div muiFormControl
+	- Step 20: Enter input value in input zipcode
+	- Step 21: Click on input city
+	- Step 22: Hover over div muiFormControl
+	- Step 23: Enter input value in input city
+	- Step 24: Click on input state
+	- Step 25: Hover over div muiFormControl
+	- Step 26: Enter input value in input state
+	- Step 27: Click on input phoneShipping
+	- Step 28: Enter input value in input phoneShipping
+	- Step 29: Click on button continuePayment -> Navigate to page 'checkout/payment'
+	- Step 30: Click on radio cashOnDelivery
+	- Step 31: Click on button completeOrder
+Step 13: Take full page screenshot as checkpoint
+",Trivial
+10,Verify Purchase of Samsung Galaxy Zfold5 and Accessories,"Navigate to the homepage, access phone category, select Samsung Galaxy Zfold5, purchase accessories, provide shipping info, select payment, and verify order completion.","Step 1: Navigate to https://cellphone-staging.aut.katalon.com/
+Step 2: Hover over item phone2
+Step 3: Click on link phoneCategory -> Navigate to page 'category/*'
+Step 4: Click on link byTitle
+Step 5: Click on link byTitle
+Step 6: Click on button samsungGalaxyZfold5From
+Step 7: Click on label dialogLabel
+Step 8: Click on label black
+Step 9: Click on button buyDialog2
+Step 10: Click on link placeOrderCart2 -> Navigate to page 'cart'
+Step 11: Click on button increased
+Step 12: Click on button proceedCheckout -> Navigate to page 'thank-you/*'
+Step 13: Take full page screenshot as checkpoint
 ",Trivial

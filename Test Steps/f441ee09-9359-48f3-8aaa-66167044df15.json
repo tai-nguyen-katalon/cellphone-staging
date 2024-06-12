@@ -1,0 +1,13 @@
+{
+    "steps": [
+        "step 1: Navigate to https://cellphone-staging.aut.katalon.com/",
+        "step 2: Click on button hotNewiPhone",
+        "step 3: Click on label 256Gb",
+        "step 4: Click on label naturalTitanium",
+        "step 5: Click on button buyDialog2",
+        "step 6: Click on link placeOrderCart2 -> Navigate to page 'cart'",
+        "step 7: Click on button increased",
+        "step 8: Provide shipping information and select payment method to complete order",
+        "step 9: Take full page screenshot as checkpoint"
+    ]
+}
