@@ -15,7 +15,7 @@ public class addIPhone15CaseAndProceedToCheckout {
         WebUI.enhancedClick(findTestObject('AI-Generated/Page_category/label_dialogLabel'))
         "Step 3: Click on button buyDialog2"
         WebUI.enhancedClick(findTestObject('AI-Generated/Page_category/button_buyDialog2'))
-        "Step 4: Click on link placeOrderCart2 -> Navigate to page 'cart'"
+        "Step 4: Click on link placeOrderCart2 -> Navigate to page '/cart'"
         WebUI.enhancedClick(findTestObject('AI-Generated/Page_category/link_placeOrderCart2'))
         "Step 5: Click on button increased"
         WebUI.enhancedClick(findTestObject('AI-Generated/Page_cart/button_increased'))

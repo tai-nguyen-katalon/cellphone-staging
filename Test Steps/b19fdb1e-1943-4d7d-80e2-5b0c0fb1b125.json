@@ -1,0 +1,15 @@
+{
+    "steps": [
+        "step 1: Navigate to https://cellphone-staging.aut.katalon.com//",
+        "step 2: Hover over item accessories",
+        "step 3: Click on link appleCategory -> Navigate to page 'category/*'",
+        "step 4: Enter input value in input priceMin",
+        "step 5: Enter input value in input priceMax",
+        "step 6: Click on button show6",
+        "step 7: Add iPhone 15 case, increase quantity, and proceed to checkout",
+        "step 8: Fill email subscription and shipping details for checkout",
+        "step 9: Click on radio cashOnDelivery",
+        "step 10: Click on button completeOrder -> Navigate to page ''",
+        "step 11: Take full page screenshot as checkpoint"
+    ]
+}
