@@ -1,0 +1,15 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Browse phone category by price range",
+        "step 3: Click on link iPhone15 -> Navigate to page 'product/*'",
+        "step 4: Click on label 128Gb",
+        "step 5: Click on label blue",
+        "step 6: Click on link placeOrderCart2 -> Navigate to page '/cart'",
+        "step 7: Click on button increased",
+        "step 8: Enter shipping details and proceed to payment",
+        "step 9: Click on radio cashOnDelivery",
+        "step 10: Click on button completeOrder -> Navigate to page ''",
+        "step 11: Take full page screenshot as checkpoint"
+    ]
+}

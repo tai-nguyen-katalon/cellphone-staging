@@ -1,12 +1,12 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-1,Verify Checkout Process for iPhone 15 Purchase,"Navigate to phone category, select iPhone 15, customize, and place order. Proceed through checkout steps including payment and verify completion.","Step 1: Navigate to /
-Step 2: View phone category and set price range to filter results
+1,Verify Purchase Flow for Specific iPhone Model,"Navigate to the homepage, select and buy a specific iPhone model, proceed through checkout steps, pay with cash on delivery, and verify the completion.","Step 1: Navigate to /
+Step 2: Browse phone category by price range
 	- Step 1: Hover over item phone2
 	- Step 2: Click on link phoneCategory -> Navigate to page 'category/*'
 	- Step 3: Enter input value in input priceMin
 	- Step 4: Enter input value in input priceMax
 	- Step 5: Click on button show0
-Step 3: Select iPhone 15, customize, buy, and place order from cart
+Step 3: Select and buy specific iPhone model
 	- Step 1: Click on link iPhone15 -> Navigate to page 'product/*'
 	- Step 2: Click on label 128Gb
 	- Step 3: Click on label blue
@@ -15,7 +15,7 @@ Step 3: Select iPhone 15, customize, buy, and place order from cart
 	- Step 6: Click on link placeOrderCart2
 Step 4: Click on button increased
 Step 5: Click on button proceedCheckout
-Step 6: Subscribe with email, provide shipping details, and proceed to payment
+Step 6: Enter shipping details and proceed to payment
 	- Step 1: Hover over div emailSubscription
 	- Step 2: Click on input email
 	- Step 3: Enter input value in input email
@@ -48,8 +48,8 @@ Step 7: Click on radio cashOnDelivery
 Step 8: Click on button completeOrder -> Navigate to page ''
 Step 9: Take full page screenshot as checkpoint
 ",High
-3,Verify Checkout Process for iPhone 15 Silicone Case Purchase,"Explore accessories, select iPhone 15 silicone case, add to cart, and complete checkout. Verify order completion.","Step 1: Navigate to /
-Step 2: Explore accessories category, sort by price, and select a new iPhone 15 silicone case
+3,Verify Purchase Flow for iPhone Accessories,"Explore and select accessories for iPhone, add to cart, proceed through checkout steps, pay with cash on delivery, and verify the completion.","Step 1: Navigate to /
+Step 2: Explore and select accessories for iPhone
 	- Step 1: Hover over item accessories
 	- Step 2: Click on link accessoriesCategory -> Navigate to page 'category/*'
 	- Step 3: Click on link sortByPrice
@@ -60,7 +60,7 @@ Step 3: Click on button buyDialog2
 Step 4: Click on link placeOrderCart2 -> Navigate to page '/cart'
 Step 5: Click on button increased
 Step 6: Click on button proceedCheckout
-Step 7: Subscribe with email, provide shipping details, and proceed to payment
+Step 7: Enter shipping details and proceed to payment
 	- Step 1: Hover over div emailSubscription
 	- Step 2: Click on input email
 	- Step 3: Enter input value in input email
@@ -93,12 +93,12 @@ Step 8: Click on radio cashOnDelivery
 Step 9: Click on button completeOrder -> Navigate to page ''
 Step 10: Take full page screenshot as checkpoint
 ",High
-4,Verify Checkout Process for Google Pixel 7 Pro Purchase,"Navigate to product, add to cart, proceed to checkout, provide details, and complete order. Verify successful checkout.","Step 1: Navigate to /
+4,Verify Purchase Flow for Google Pixel 7 Pro,"Navigate to the homepage, select Google Pixel 7 Pro, proceed through checkout steps, pay with cash on delivery, and verify the completion.","Step 1: Navigate to /
 Step 2: Click on button googlePixel7Pro
 Step 3: Click on link placeAnOrder -> Navigate to page '/cart'
 Step 4: Click on button increased
 Step 5: Click on button proceedCheckout
-Step 6: Subscribe with email, provide shipping details, and proceed to payment
+Step 6: Enter shipping details and proceed to payment
 	- Step 1: Hover over div emailSubscription
 	- Step 2: Click on input email
 	- Step 3: Enter input value in input email
@@ -131,7 +131,7 @@ Step 7: Click on radio cashOnDelivery
 Step 8: Click on button completeOrder -> Navigate to page ''
 Step 9: Take full page screenshot as checkpoint
 ",Medium
-9,Verify Checkout Process for Samsung Galaxy Z Fold 4 Cover Purchase,"Navigate, select product, add to cart, proceed through checkout steps, and complete order. Verify successful checkout.","Step 1: Navigate to /
+9,Verify Purchase Flow for Samsung Galaxy Z Fold 4 Cover,"Navigate to the homepage, select Samsung Galaxy Z Fold 4 Cover, proceed through checkout steps, pay with cash on delivery, and verify the completion.","Step 1: Navigate to /
 Step 2: Hover over div productsSlider
 Step 3: Click on div productsSliderWrapper
 Step 4: Hover over link productsSliderNext
@@ -151,7 +151,7 @@ Step 17: Click on button addToCart
 Step 18: Click on link placeAnOrder -> Navigate to page '/cart'
 Step 19: Click on button increased
 Step 20: Click on button proceedCheckout
-Step 21: Subscribe with email, provide shipping details, and proceed to payment
+Step 21: Enter shipping details and proceed to payment
 	- Step 1: Hover over div emailSubscription
 	- Step 2: Click on input email
 	- Step 3: Enter input value in input email
@@ -184,12 +184,12 @@ Step 22: Click on radio cashOnDelivery
 Step 23: Click on button completeOrder -> Navigate to page ''
 Step 24: Take full page screenshot as checkpoint
 ",Medium
-5,View iPhone Pro Hot New Best Choice,Navigate to view details of iPhone Pro Hot New Best Choice. Verify successful navigation.,"Step 1: Navigate to /
+5,Verify Navigation to Specific iPhone Model,"Navigate to the homepage, hover over products slider, and click to view a specific iPhone model.","Step 1: Navigate to /
 Step 2: Hover over div productsSlider
 Step 3: Click on link iphoneProHotNewBestChoice -> Navigate to page ''
 Step 4: Take full page screenshot as checkpoint
 ",Medium
-7,Verify Checkout Process for Hot New iPhone Purchase,"Navigate, select product options, add to cart, proceed through checkout steps, and complete order. Verify successful checkout.","Step 1: Navigate to /
+7,Verify Purchase Flow for Hot New iPhone Model,"Navigate to the homepage, select hot new iPhone model, proceed through checkout steps, pay with cash on delivery, and verify the completion.","Step 1: Navigate to /
 Step 2: Click on button hotNewiPhone
 Step 3: Click on label 256Gb
 Step 4: Click on label naturalTitanium
@@ -197,7 +197,7 @@ Step 5: Click on button buyDialog2
 Step 6: Click on link placeAnOrder -> Navigate to page '/cart'
 Step 7: Click on button increased
 Step 8: Click on button proceedCheckout
-Step 9: Subscribe with email, provide shipping details, and proceed to payment
+Step 9: Enter shipping details and proceed to payment
 	- Step 1: Hover over div emailSubscription
 	- Step 2: Click on input email
 	- Step 3: Enter input value in input email
@@ -230,10 +230,10 @@ Step 10: Click on radio cashOnDelivery
 Step 11: Click on button completeOrder -> Navigate to page ''
 Step 12: Take full page screenshot as checkpoint
 ",Medium
-8,Verify Checkout Process for Multiple iPhone 15 Purchases,"Navigate, add multiple iPhone 15 to cart, proceed to checkout, provide details, and complete orders. Verify successful checkout.","Step 1: Navigate to /
+8,Verify Purchase Flow for Multiple iPhone Models,"Navigate to the homepage, select and buy multiple iPhone models, proceed through checkout steps, pay with cash on delivery, and verify the completion.","Step 1: Navigate to /
 Step 2: Hover over item phone2
 Step 3: Click on link appleCategory2
-Step 4: Select iPhone 15, customize, buy, and place order from cart
+Step 4: Select and buy specific iPhone model
 	- Step 1: Click on link iPhone15 -> Navigate to page 'product/*'
 	- Step 2: Click on label 128Gb
 	- Step 3: Click on label blue
@@ -245,7 +245,7 @@ Step 6: Click on button remove
 Step 7: Click on link goShopping -> Navigate to page '/'
 Step 8: Hover over item phone2
 Step 9: Click on link appleCategory2
-Step 10: Select iPhone 15, customize, buy, and place order from cart
+Step 10: Select and buy specific iPhone model
 	- Step 1: Click on link iPhone15 -> Navigate to page 'product/*'
 	- Step 2: Click on label 128Gb
 	- Step 3: Click on label blue
@@ -253,7 +253,7 @@ Step 10: Select iPhone 15, customize, buy, and place order from cart
 	- Step 5: Click on button buy
 	- Step 6: Click on link placeOrderCart2
 Step 11: Click on button proceedCheckout
-Step 12: Subscribe with email, provide shipping details, and proceed to payment
+Step 12: Enter shipping details and proceed to payment
 	- Step 1: Hover over div emailSubscription
 	- Step 2: Click on input email
 	- Step 3: Enter input value in input email
@@ -286,13 +286,13 @@ Step 13: Click on radio cashOnDelivery
 Step 14: Click on button completeOrder -> Navigate to page ''
 Step 15: Take full page screenshot as checkpoint
 ",Medium
-2,Explore Apple Accessories,Navigate to view Apple accessories. Verify successful navigation.,"Step 1: Navigate to /
+2,Verify Navigation to Apple Accessories,"Navigate to the homepage, hover over accessories, and click to view Apple accessories.","Step 1: Navigate to /
 Step 2: Hover over item accessories
 Step 3: Click on link apple -> Navigate to page ''
 Step 4: Take full page screenshot as checkpoint
 ",Low
-17,Explore iPhone 15 Silicone Case Options,Explore and select iPhone 15 silicone case options. Verify successful selection.,"Step 1: Navigate to /
-Step 2: Explore accessories category, sort by price, and select a new iPhone 15 silicone case
+17,Verify Purchase Flow for iPhone 15 Case with Filtering,"Navigate to the category page, filter by price, select iPhone 15 case, proceed through checkout steps, pay with cash on delivery, and verify the completion.","Step 1: Navigate to /
+Step 2: Explore and select accessories for iPhone
 	- Step 1: Hover over item accessories
 	- Step 2: Click on link accessoriesCategory -> Navigate to page 'category/*'
 	- Step 3: Click on link sortByPrice
@@ -306,7 +306,7 @@ Step 6: Click on button increased
 Step 7: Click on button proceedCheckout -> Navigate to page ''
 Step 8: Take full page screenshot as checkpoint
 ",Trivial
-23,Verify Interaction with Product Features on Homepage,"Navigate to the homepage, interact with product features, and verify the homepage layout and functionality.","Step 1: Navigate to /
+23,Verify Product Selection and User Preferences on Homepage,"Navigate to the homepage, interact with product items and user preferences, and verify the homepage.","Step 1: Navigate to /
 Step 2: Click on div productsItemWrapper
 Step 3: Click on div iLikeWorkingWithThe
 Step 4: Click on div iLikeWorkingWithThe
@@ -314,8 +314,8 @@ Step 5: Click on div iLikeWorkingWithThe
 Step 6: Click on image jackFrequentBuyer -> Navigate to page ''
 Step 7: Take full page screenshot as checkpoint
 ",Trivial
-22,Verify Purchase of iPhone 15 with Specific Configurations,"Navigate to the homepage, filter and select an iPhone 15, choose specific storage and color options, add to cart, proceed to checkout, provide shipping details, select cash on delivery, and complete the order. Verify successful completion.","Step 1: Navigate to /
-Step 2: View phone category and set price range to filter results
+22,Verify Order Completion for Specific iPhone Model with Cash on Delivery,"Navigate to the homepage, select an iPhone model within a specific price range, add to cart, proceed through checkout, select cash on delivery, complete the order, and verify the homepage.","Step 1: Navigate to /
+Step 2: Browse phone category by price range
 	- Step 1: Hover over item phone2
 	- Step 2: Click on link phoneCategory -> Navigate to page 'category/*'
 	- Step 3: Enter input value in input priceMin
@@ -326,7 +326,7 @@ Step 4: Click on label 128Gb
 Step 5: Click on label blue
 Step 6: Click on link placeOrderCart2 -> Navigate to page '/cart'
 Step 7: Click on button increased
-Step 8: Subscribe with email, provide shipping details, and proceed to payment
+Step 8: Enter shipping details and proceed to payment
 	- Step 1: Hover over div emailSubscription
 	- Step 2: Click on input email
 	- Step 3: Enter input value in input email
@@ -359,14 +359,14 @@ Step 9: Click on radio cashOnDelivery
 Step 10: Click on button completeOrder -> Navigate to page ''
 Step 11: Take full page screenshot as checkpoint
 ",Trivial
-21,Verify Successful Purchase with Cash on Delivery Option,"Navigate to the homepage, select a Samsung phone category, add an iPhone to the cart, proceed to checkout, provide shipping details, choose cash on delivery, and complete the order. Verify successful completion.","Step 1: Navigate to /
+21,Verify Successful Order Completion with Cash on Delivery,"Navigate to the homepage, add a specific phone to the cart, proceed through checkout, select cash on delivery, complete the order, and verify the homepage.","Step 1: Navigate to /
 Step 2: Click on link categorySamsung -> Navigate to page 'category/*'
 Step 3: Click on button hotNewiPhone15From
 Step 4: Click on label dialogLabel
 Step 5: Click on button buyDialog2 -> Navigate to page '/cart'
 Step 6: Click on button increased
 Step 7: Click on button proceedCheckout
-Step 8: Subscribe with email, provide shipping details, and proceed to payment
+Step 8: Enter shipping details and proceed to payment
 	- Step 1: Hover over div emailSubscription
 	- Step 2: Click on input email
 	- Step 3: Enter input value in input email
@@ -399,9 +399,9 @@ Step 9: Click on radio cashOnDelivery
 Step 10: Click on button completeOrder -> Navigate to page ''
 Step 11: Take full page screenshot as checkpoint
 ",Trivial
-20,Explore Apple Accessories via Hamburger Menu,Navigate to view Apple accessories via the hamburger menu. Verify successful navigation.,"Step 1: Navigate to /
+20,Verify Navigation to Apple Accessories through Menu,"Navigate to the homepage, access the menu, filter and view Apple accessories.","Step 1: Navigate to /
 Step 2: Click on button marsLogoRowHamburger
-Step 3: Browse Apple accessories, set price range, and view results
+Step 3: Filter and view Apple accessories by price range
 	- Step 1: Hover over item accessories
 	- Step 2: Click on link apple -> Navigate to page 'category/*'
 	- Step 3: Enter input value in input priceMin
@@ -409,7 +409,7 @@ Step 3: Browse Apple accessories, set price range, and view results
 	- Step 5: Click on button show0
 Step 4: Take full page screenshot as checkpoint
 ",Trivial
-19,Browse Apple Accessories and Complete Order,"Browse Apple accessories, view results, add to cart, proceed through checkout steps, and complete order. Verify successful completion.","Step 1: Navigate to /
+19,Verify Navigation and Purchase Flow for Apple Accessories,"Navigate to the homepage, filter and view Apple accessories, add to cart, proceed through checkout steps, pay with cash on delivery, and verify the completion.","Step 1: Navigate to /
 Step 2: Hover over item accessories
 Step 3: Click on link apple -> Navigate to page 'category/*'
 Step 4: Click on button saleMagSafeCharger9900
@@ -445,7 +445,7 @@ Step 33: Enter input value in input email
 Step 34: Click on button continueShipping -> Navigate to page ''
 Step 35: Take full page screenshot as checkpoint
 ",Trivial
-18,Verify Checkout Process for iPhone 15 Case Purchase with Price Range,"Set price range, select iPhone 15 case, proceed to checkout, provide details, and complete order. Verify successful checkout.","Step 1: Navigate to category/*
+18,Verify Purchase Flow for iPhone 15 Accessories,"Navigate to the homepage, filter and view iPhone 15 accessories, select and buy specific accessories, proceed through checkout steps, pay with cash on delivery, and verify the completion.","Step 1: Navigate to category/*
 Step 2: Enter input value in input priceMin
 Step 3: Enter input value in input priceMax
 Step 4: Click on button show0
@@ -461,7 +461,7 @@ Step 13: Click on label 128Gb
 Step 14: Click on label blue
 Step 15: Click on button btn1
 Step 16: Click on button buy
-Step 17: Subscribe with email, provide shipping details, and proceed to payment
+Step 17: Enter shipping details and proceed to payment
 	- Step 1: Hover over div emailSubscription
 	- Step 2: Click on input email
 	- Step 3: Enter input value in input email
@@ -494,8 +494,8 @@ Step 18: Click on radio cashOnDelivery
 Step 19: Click on button completeOrder -> Navigate to page ''
 Step 20: Take full page screenshot as checkpoint
 ",Trivial
-13,Explore Apple and Samsung Accessories,Navigate to view Apple and Samsung accessories. Verify successful navigation.,"Step 1: Navigate to /
-Step 2: View phone category and set price range to filter results
+13,Verify Navigation to Samsung Products,"Navigate to the homepage, browse Samsung products, and navigate through different product categories.","Step 1: Navigate to /
+Step 2: Browse phone category by price range
 	- Step 1: Hover over item phone2
 	- Step 2: Click on link phoneCategory -> Navigate to page 'category/*'
 	- Step 3: Enter input value in input priceMin
@@ -520,21 +520,21 @@ Step 18: Click on list phoneAccessories
 Step 19: Click on list breadcrumb -> Navigate to page ''
 Step 20: Take full page screenshot as checkpoint
 ",Trivial
-16,Explore Accessories for New iPhone 15,Navigate to view accessories for new iPhone 15. Verify successful navigation.,"Step 1: Navigate to /
+16,Verify Navigation to iPhone Accessories,"Navigate to the homepage, explore and select iPhone accessories.","Step 1: Navigate to /
 Step 2: Click on button newiPhone15PlusFrom120000
 Step 3: Click on div dialog
 Step 4: Hover over item accessories
 Step 5: Click on link apple -> Navigate to page ''
 Step 6: Take full page screenshot as checkpoint
 ",Trivial
-15,Purchase Hot New iPhone 15 with Customization,"Select hot new iPhone 15, customize, add to cart, proceed to checkout, and complete order. Verify successful checkout.","Step 1: Navigate to /
+15,Verify Purchase Flow for New iPhone 15 Plus,"Navigate to the homepage, select new iPhone 15 Plus, proceed through checkout steps, pay with cash on delivery, and verify the completion.","Step 1: Navigate to /
 Step 2: Click on button hotNewiPhone
 Step 3: Click on label 256Gb
 Step 4: Click on label naturalTitanium
 Step 5: Click on button buyDialog2 -> Navigate to page '/cart'
 Step 6: Click on button increased
 Step 7: Click on button proceedCheckout
-Step 8: Subscribe with email, provide shipping details, and proceed to payment
+Step 8: Enter shipping details and proceed to payment
 	- Step 1: Hover over div emailSubscription
 	- Step 2: Click on input email
 	- Step 3: Enter input value in input email
@@ -567,7 +567,7 @@ Step 9: Click on radio cashOnDelivery
 Step 10: Click on button completeOrder -> Navigate to page ''
 Step 11: Take full page screenshot as checkpoint
 ",Trivial
-14,Verify Checkout Process for Hot New iPhone 15 Purchase,"Select hot new iPhone 15, customize, add to cart, proceed to checkout, and complete order. Verify successful checkout.","Step 1: Navigate to /
+14,Verify Purchase Flow for Hot New iPhone 15,"Navigate to the homepage, select hot new iPhone 15, proceed through checkout steps, pay with cash on delivery, and verify the completion.","Step 1: Navigate to /
 Step 2: Hover over item phone2
 Step 3: Click on link appleCategory2 -> Navigate to page 'category/*'
 Step 4: Click on button hotNewiPhone15From
@@ -580,7 +580,7 @@ Step 10: Click on list horizontalMenu
 Step 11: Click on link appleCategory -> Navigate to page ''
 Step 12: Take full page screenshot as checkpoint
 ",Trivial
-12,Select Accessories and Silicone Case for New iPhone 15,"Navigate, select accessories and silicone case for new iPhone 15, and verify successful selection.","Step 1: Navigate to /
+12,Verify Purchase Flow for New iPhone 15 Plus,"Navigate to the homepage, select new iPhone 15 Plus, add accessories, proceed through checkout steps, pay with cash on delivery, and verify the completion.","Step 1: Navigate to /
 Step 2: Click on div swiperSliderContent
 Step 3: Click on button newiPhone15PlusFrom120000
 Step 4: Click on label 256Gb
@@ -596,10 +596,10 @@ Step 13: Click on button newiPhone15SiliconeCase
 Step 14: Click on button close -> Navigate to page ''
 Step 15: Take full page screenshot as checkpoint
 ",Trivial
-11,Verify Checkout Process for Multiple iPhone 15 Purchases with Removal,"Add and remove iPhone 15 from cart, proceed to checkout, provide details, and complete orders. Verify successful checkout.","Step 1: Navigate to /
+11,Verify Purchase Flow for Multiple iPhone Models with Removal,"Navigate to the homepage, select and buy multiple iPhone models with removal, proceed through checkout steps, pay with cash on delivery, and verify the completion.","Step 1: Navigate to /
 Step 2: Hover over item phone2
 Step 3: Click on link appleCategory2
-Step 4: Select iPhone 15, customize, buy, and place order from cart
+Step 4: Select and buy specific iPhone model
 	- Step 1: Click on link iPhone15 -> Navigate to page 'product/*'
 	- Step 2: Click on label 128Gb
 	- Step 3: Click on label blue
@@ -611,7 +611,7 @@ Step 6: Click on button remove
 Step 7: Click on link goShopping
 Step 8: Hover over item object
 Step 9: Click on link apple
-Step 10: Select iPhone 15, customize, buy, and place order from cart
+Step 10: Select and buy specific iPhone model
 	- Step 1: Click on link iPhone15 -> Navigate to page 'product/*'
 	- Step 2: Click on label 128Gb
 	- Step 3: Click on label blue
@@ -619,7 +619,7 @@ Step 10: Select iPhone 15, customize, buy, and place order from cart
 	- Step 5: Click on button buy
 	- Step 6: Click on link placeOrderCart2
 Step 11: Click on button proceedCheckout
-Step 12: Subscribe with email, provide shipping details, and proceed to payment
+Step 12: Enter shipping details and proceed to payment
 	- Step 1: Hover over div emailSubscription
 	- Step 2: Click on input email
 	- Step 3: Enter input value in input email
@@ -652,7 +652,7 @@ Step 13: Click on radio cashOnDelivery
 Step 14: Click on button completeOrder -> Navigate to page ''
 Step 15: Take full page screenshot as checkpoint
 ",Trivial
-10,Verify Checkout Process for iPhone 15 Case Purchase from Category,"Select iPhone 15 case, proceed to checkout, and complete order. Verify successful checkout.","Step 1: Navigate to category/*
+10,Verify Purchase Flow for iPhone 15 Case from Category,"Navigate to the category page, select iPhone 15 case, proceed through checkout steps, pay with cash on delivery, and verify the completion.","Step 1: Navigate to category/*
 Step 2: Click on button iPhone15Case2
 Step 3: Click on label dialogLabel
 Step 4: Click on button buyDialog2
@@ -660,8 +660,8 @@ Step 5: Hover over item phone2
 Step 6: Click on link phoneCategory2 -> Navigate to page ''
 Step 7: Take full page screenshot as checkpoint
 ",Trivial
-6,Verify Checkout Process for iPhone 15 Case Purchase,"Browse and select iPhone 15 case, proceed to checkout, provide details, and complete order. Verify successful checkout.","Step 1: Navigate to /
-Step 2: Browse Apple accessories, set price range, and view results
+6,Verify Purchase Flow for iPhone 15 Case,"Navigate to the homepage, filter and view Apple accessories, select iPhone 15 case, proceed through checkout steps, pay with cash on delivery, and verify the completion.","Step 1: Navigate to /
+Step 2: Filter and view Apple accessories by price range
 	- Step 1: Hover over item accessories
 	- Step 2: Click on link apple -> Navigate to page 'category/*'
 	- Step 3: Enter input value in input priceMin
@@ -676,11 +676,11 @@ Step 8: Click on radio cashOnDelivery
 Step 9: Click on button completeOrder -> Navigate to page ''
 Step 10: Take full page screenshot as checkpoint
 ",Trivial
-24,Verify Purchase Process for Hot New iPhone 15,"Navigate to the homepage, select a phone category, add the hot new iPhone 15 to the cart, proceed to checkout, provide shipping details, choose cash on delivery, and complete the order. Verify successful completion.","Step 1: Navigate to /
+24,Verify Order Completion for Hot New iPhone with Cash on Delivery,"Navigate to the homepage, add the hot new iPhone to the cart, proceed through checkout, select cash on delivery, complete the order, and verify the homepage.","Step 1: Navigate to /
 Step 2: Click on link phoneCategory -> Navigate to page 'category/*'
 Step 3: Click on button hotNewiPhone15From -> Navigate to page '/cart'
 Step 4: Click on button proceedCheckout
-Step 5: Subscribe with email, provide shipping details, and proceed to payment
+Step 5: Enter shipping details and proceed to payment
 	- Step 1: Hover over div emailSubscription
 	- Step 2: Click on input email
 	- Step 3: Enter input value in input email

@@ -1,0 +1,13 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on button googlePixel7Pro",
+        "step 3: Click on link placeAnOrder -> Navigate to page '/cart'",
+        "step 4: Click on button increased",
+        "step 5: Click on button proceedCheckout",
+        "step 6: Enter shipping details and proceed to payment",
+        "step 7: Click on radio cashOnDelivery",
+        "step 8: Click on button completeOrder -> Navigate to page ''",
+        "step 9: Take full page screenshot as checkpoint"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on button newiPhone15PlusFrom120000",
+        "step 3: Click on div dialog",
+        "step 4: Hover over item accessories",
+        "step 5: Click on link apple -> Navigate to page ''",
+        "step 6: Take full page screenshot as checkpoint"
+    ]
+}

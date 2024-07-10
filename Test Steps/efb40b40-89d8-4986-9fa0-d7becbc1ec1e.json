@@ -1,0 +1,28 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Hover over div productsSlider",
+        "step 3: Click on div productsSliderWrapper",
+        "step 4: Hover over link productsSliderNext",
+        "step 5: Click on link productsSliderNextChevron",
+        "step 6: Click on link productsSliderNextChevron",
+        "step 7: Click on link productsSliderNextChevron",
+        "step 8: Click on link productsSliderNextChevron",
+        "step 9: Click on link productsSliderNextChevron",
+        "step 10: Click on link productsSliderNextChevron",
+        "step 11: Click on link productsSliderNextChevron",
+        "step 12: Click on link productsSliderNextChevron",
+        "step 13: Click on link productsSliderNextChevron",
+        "step 14: Click on link productsSliderNextChevron",
+        "step 15: Click on link productsSliderNextChevron",
+        "step 16: Hover over div samsungGalaxyZfold4Cover",
+        "step 17: Click on button addToCart",
+        "step 18: Click on link placeAnOrder -> Navigate to page '/cart'",
+        "step 19: Click on button increased",
+        "step 20: Click on button proceedCheckout",
+        "step 21: Enter shipping details and proceed to payment",
+        "step 22: Click on radio cashOnDelivery",
+        "step 23: Click on button completeOrder -> Navigate to page ''",
+        "step 24: Take full page screenshot as checkpoint"
+    ]
+}
