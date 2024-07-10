@@ -1,0 +1,15 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on button hotNewiPhone",
+        "step 3: Click on label 256Gb",
+        "step 4: Click on label naturalTitanium",
+        "step 5: Click on button buyDialog2 -> Navigate to page '/cart'",
+        "step 6: Click on button increased",
+        "step 7: Click on button proceedCheckout",
+        "step 8: Provide shipping information, select shipping method, and continue to payment",
+        "step 9: Click on radio cashOnDelivery",
+        "step 10: Click on button completeOrder -> Navigate to page ''",
+        "step 11: Take full page screenshot as checkpoint"
+    ]
+}

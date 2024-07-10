@@ -1,0 +1,12 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Explore accessories category, sort by price, and select a new iPhone 15 case",
+        "step 3: Click on label black",
+        "step 4: Click on button buyDialog2",
+        "step 5: Click on link placeOrderCart2 -> Navigate to page '/cart'",
+        "step 6: Click on button increased",
+        "step 7: Click on button proceedCheckout -> Navigate to page ''",
+        "step 8: Take full page screenshot as checkpoint"
+    ]
+}
